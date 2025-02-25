@@ -189,6 +189,7 @@ add_action('rest_api_init', function() {
 //     });
 
 //     return rest_ensure_response($filtered_threads);
+//changes : -
 // }
 
 function get_combined_messages() {
