@@ -1,0 +1,93 @@
+/**
+ * BP Attachments medium view styles.
+ *
+ * @version 1.0.0
+ */
+body.attachments.view .bp-attachment-audio,
+body.attachments.view .bp-attachment-image,
+body.attachments.view .bp-attachment-video {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+body.attachments.view .bp-attachment-audio figcaption,
+body.attachments.view .bp-attachment-video figcaption {
+	font-size: small;
+	margin: 0.5em auto;
+}
+
+body.attachments.view .bp-attachment-audio figcaption a,
+body.attachments.view .bp-attachment-video figcaption a {
+	border-bottom: solid 1px;
+}
+
+body.attachments.view .bp-attachments-medium-description {
+	margin: 2em 0;
+}
+
+body.attachments.view .bp-attachment-image img {
+	max-width: 100%;
+	height: auto;
+}
+
+body.attachments.view .bp-attachment-video video {
+	max-width: 100%;
+	height: auto;
+}
+
+body.attachments.view .bp-attachment-audio audio {
+	width: 100%;
+}
+
+body.attachments.view .wp-block-post-author {
+	margin: 2em 0;
+}
+
+body.attachments.view dl.bp-attachment-meta {
+	font-size: 80%;
+}
+
+body.attachments.view dl.bp-attachment-meta.horizontal {
+	display: flex;
+	justify-content: center;
+}
+
+body.attachments.view dl.bp-attachment-meta dt {
+	font-weight: bold;
+}
+
+body.attachments.view dl.bp-attachment-meta dd {
+	margin-left: 0.5em;
+}
+
+body.attachments.view dl.bp-attachment-meta.horizontal dd {
+	margin-left: 0.5em;
+	margin-right: 2em;
+}
+
+body.attachments.view .bp-attachment-file {
+	display: flex;
+	align-items: center;
+}
+
+body.attachments.view .bp-attachment-file .bp-attachment-file-icon {
+	margin-right: 2em;
+}
+
+body.attachments.view .bp-attachment-file dl.bp-attachment-meta dt,
+body.attachments.view .bp-attachment-file dl.bp-attachment-meta dd {
+	display: inline;
+}
+
+body.attachments.view .bp-attachment-file dl.bp-attachment-meta dd:after {
+	display: block;
+	content: '';
+}
+
+body.attachments.view #bp-media-list {
+	overflow: auto;
+	outline: none;
+	padding-top: 0.5em;
+}

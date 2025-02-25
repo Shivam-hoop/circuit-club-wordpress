@@ -1,0 +1,48 @@
+{
+	"name": "buddypress/bp-rest",
+	"description": "Access your BuddyPress site's data through an easy-to-use HTTP REST API.",
+	"type": "wordpress-plugin",
+	"keywords": [
+		"bp-rest",
+		"bp-rest-api",
+		"buddypress",
+		"rest",
+		"plugin"
+	],
+	"homepage": "https://buddypress.org",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "BuddyPress Community",
+			"homepage": "https://buddypress.org/about/"
+		}
+	],
+	"support": {
+		"forum": "https://buddypress.org/support/",
+		"docs": "https://codex.buddypress.org/",
+		"issues": "https://buddypress.trac.wordpress.org/",
+		"rss": "https://buddypress.org/feed/",
+		"source": "https://buddypress.trac.wordpress.org/browser/",
+		"wiki": "https://codex.buddypress.org/"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"composer/installers": true
+		}
+	},
+	"require": {
+		"php": ">=5.6.0"
+	},
+	"require-dev": {
+		"buddypress/bp-coding-standards": "dev-trunk",
+		"yoast/phpunit-polyfills": "^1.0"
+	},
+	"scripts": {
+		"test": "@php ./vendor/phpunit/phpunit/phpunit",
+		"test_multi": "@php ./vendor/phpunit/phpunit/phpunit -c tests/multisite.xml",
+		"phpunit": "@test",
+		"phpcs": "@php ./vendor/bin/phpcs . --basepath=.",
+		"phpcbf": "@php ./vendor/bin/phpcbf . --basepath=."
+	}
+}

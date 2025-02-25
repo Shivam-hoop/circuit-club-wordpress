@@ -1,0 +1,182 @@
+<?php
+function my_theme_enqueue_styles()
+{
+    $parent_style = 'parent-style';
+
+    wp_enqueue_style($parent_style, get_template_directory_uri() . '/style.css');
+    wp_enqueue_style(
+        'child-style',
+        get_stylesheet_directory_uri() . '/style.css',
+        array($parent_style),
+        wp_get_theme()->get('Version')
+    );
+}
+add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
+
+
+add_action('bp_core_activated_user', 'custom_redirect_after_activation', 10, 3);
+
+function custom_redirect_after_activation($user_id, $key, $user)
+{
+
+    $redirect_url = 'https://circuit-club.com/success';
+
+    // Check if the user activation key is valid
+    if (bp_core_activate_signup($key)) {
+        // Redirect to the custom URL
+        wp_redirect($redirect_url);
+        exit;
+    }
+
+}
+
+
+
+// Hook into the before_delete_post action
+function delete_vehicle_posts_when_vehicle_is_deleted($post_id) {
+    // Check if the post being deleted is a vehicle
+    if (get_post_type($post_id) == 'vehicle') {
+        // Get all vehicle posts associated with this vehicle
+        $vehicle_posts = get_posts(array(
+            'post_type' => 'vehicle_post',
+            'meta_query' => array(
+                array(
+                    'key' => 'vehicle_id', // Assuming you have a custom field 'vehicle_id' in vehicle_post
+                    'value' => $post_id,
+                    'compare' => '='
+                )
+            ),
+            'numberposts' => -1 // To get all posts
+        ));
+        
+        // Loop through and delete each vehicle post
+        foreach ($vehicle_posts as $vehicle_post) {
+            wp_delete_post($vehicle_post->ID, true);
+        }
+    }
+}
+add_action('before_delete_post', 'delete_vehicle_posts_when_vehicle_is_deleted');
+
+
+
+// add_filter('bp_core_signup_user_notification_message', 'customize_activation_email', 10, 4);
+
+// function customize_activation_email($message, $user, $user_email, $activation_key) {
+//     // Get the user ID from the email
+//     $user_info = get_user_by('email', $user_email);
+//     error_log("User info : -".$user_info);
+//     $user_id = $user_info->ID;
+//     $base_url = "http://localhost:3000";
+
+//     // Custom activation link pointing to your frontend app
+//     $activation_link = "$base_url/activate?key=$activation_key&user_id=$user_id";
+
+//     // Customize the email message
+//     $message = "Welcome to our community!\n\nTo activate your account, please click the following link:\n\n";
+//     $message .= $activation_link;
+//     $message .= "\n\nThank you!";
+
+//     return $message;
+// }
+
+// add_filter('wp_mail', 'customize_wp_mail');
+
+// function customize_wp_mail($args) {
+//     if (strpos($args['subject'], 'Activate Your Account') !== false) { // Adjust the subject line as needed
+//         // Get the activation key and user ID from the email body
+//         $user_email = $args['to'];
+//         $user_info = get_user_by('email', $user_email);
+//         if ($user_info) {
+//             error_log("User info: " . print_r($user_info, true));
+//             $user_id = $user_info->ID;
+//         } else {
+//             error_log("User info not found for email: " . $user_email);
+//             return $args; // Return original args if user info is not found
+//         }
+
+//         $base_url = "http://localhost:3000";
+
+//         // Extract the activation key from the email body
+//         $activation_key = ''; // Extract this from the email body content
+//         if (preg_match('/key=([a-zA-Z0-9]+)/', $args['message'], $matches)) {
+//             $activation_key = $matches[1];
+//         }
+
+//         // Custom activation link pointing to your frontend app
+//         $activation_link = "$base_url/activate?key=$activation_key&user_id=$user_id";
+
+//         // Customize the email message
+//         $args['message'] = "Welcome to our community!\n\nTo activate your account, please click the following link:\n\n";
+//         $args['message'] .= $activation_link;
+//         $args['message'] .= "\n\nThank you!";
+//     }
+//     return $args;
+// }
+// add_filter('bp_core_signup_send_validation_email_message', 'custom_activation_email', 10, 3);
+
+// function custom_activation_email($message, $user_id, $activate_url) {
+//     // Create a custom activation link
+//     $custom_activate_url = add_query_arg(array(
+//         'key' => bp_get_user_meta($user_id, 'activation_key', true),
+//         'user' => $user_id,
+//     ), 'https://your-frontend-app.com/activate'); // Change to your frontend URL
+
+//     // Modify the email message
+//     $message = sprintf(__('Thanks for registering! To complete the activation of your account, please click the following link: %s'), $custom_activate_url);
+
+//     return $message;
+// }
+
+// add_action('bp_send_email', 'customize_activation_email', 10, 2);
+
+// function customize_activation_email($email_type, $to) {
+//     error_log(json_encode($email_type));
+//     if ($email_type === 'activation') {
+//         $email = bp_get_email('activation');
+//         $user = get_user_by('email', $to);
+
+//         if ($user) {
+//             $user_id = $user->ID;
+//             $activation_key = bp_get_user_meta($user_id, 'activation_key', true);
+//             $base_url = "http://localhost:3000/";
+
+//             // Custom activation link pointing to your frontend app
+//             $activation_link = "$base_url/activate?key=$activation_key&user_id=$user_id";
+
+//             // Customize the email message
+//             $message = "Welcome to our community!\n\nTo activate your account, please click the following link:\n\n";
+//             $message .= $activation_link;
+//             $message .= "\n\nThank you!";
+
+//             // Modify the email content
+//             $email->set_content($message);
+//             $email->set_template('your-custom-template'); // Set your custom template if needed
+//         }
+//     }
+// }
+
+add_action('bp_core_signup_user', 'custom_user_activation_email', 10, 3);
+
+function custom_user_activation_email($user_id, $key, $user) {
+    // Customize the activation email here
+    $user_info = get_userdata($user_id);
+    $user_email = $user_info->user_email;
+    $activation_link = home_url("/custom-activation-endpoint/?key=$key&user=$user_id");
+    error_log($user_info);
+    $subject = "Activate Your Account";
+    $message = "
+    Hi {$user_info->display_name},
+    
+    Welcome to our community! Please activate your account by clicking the link below:
+    
+    <a href='$activation_link'>Activate Your Account</a>
+    
+    If you did not sign up for this account, please ignore this email.
+    
+    Thanks,
+    The Team
+    
+    ";
+    
+    wp_mail($user_email, $subject, $message);
+}

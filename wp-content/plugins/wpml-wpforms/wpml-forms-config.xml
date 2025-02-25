@@ -1,0 +1,69 @@
+<forms>
+	<form name="wpforms">
+		<settings>
+			<property>form_title</property>
+			<property>form_desc</property>
+			<property>submit_text</property>
+			<property>submit_text_processing</property>
+			<property type="ARRAY" properties="message,redirect">confirmations</property>
+			<property type="ARRAY" properties="subject,message">notifications</property>
+			<property>conversational_forms_title</property>
+			<property>conversational_forms_description</property>
+			<property>form_pages_title</property>
+			<property>form_pages_description</property>
+			<property>form_pages_footer</property>
+			<property>save_resume_link_text</property>
+			<property>save_resume_disclaimer_message</property>
+			<property>save_resume_confirmation_message</property>
+			<property>save_resume_email_notification_message</property>
+			<property>save_resume_email_settings_message</property>
+			<property>form_locker_user_message</property>
+			<property>registration_email_admin_subject</property>
+			<property>registration_email_admin_message</property>
+			<property>registration_email_user_subject</property>
+			<property>registration_email_user_message</property>
+			<property>registration_email_user_activation_subject</property>
+			<property>registration_email_user_activation_message</property>
+			<property>registration_email_user_after_activation_subject</property>
+			<property>registration_email_user_after_activation_message</property>
+			<property>user_reset_email_user_subject</property>
+			<property>user_reset_email_user_message</property>
+		</settings>
+		<field>
+			<property>label</property>
+			<property>description</property>
+			<property>content</property>
+			<property>placeholder</property>
+			<property>simple_placeholder</property>
+			<property>simple_default</property>
+			<property>first_placeholder</property>
+			<property>first_default</property>
+			<property>first_label</property>
+			<property>middle_placeholder</property>
+			<property>middle_default</property>
+			<property>middle_label</property>
+			<property>last_placeholder</property>
+			<property>last_default</property>
+			<property>last_label</property>
+			<property>confirmation_placeholder</property>
+			<property>default_value</property>
+			<property type="ARRAY" properties="label">choices</property>
+			<property type="ARRAY" properties="question,answer">questions</property>
+			<property type="ARRAY">rows</property>
+			<property type="ARRAY">columns</property>
+			<property>date_placeholder</property>
+			<property>time_placeholder</property>
+			<property>title</property>
+			<property>prev</property>
+			<property>next</property>
+			<property>preview-notice</property>
+			<property>code</property>
+			<property>address1_placeholder</property>
+			<property>address2_placeholder</property>
+			<property>city_placeholder</property>
+			<property>postal_placeholder</property>
+			<property>state_placeholder</property>
+			<property>country_placeholder</property>
+		</field>
+	</form>
+</forms>

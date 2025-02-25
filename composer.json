@@ -1,0 +1,13 @@
+{
+    "require": {
+        "aws/aws-sdk-php": "^3.320",
+        "pusher/pusher-php-server": "^7.2",
+        "calcinai/php-imagick": "^0.1.2",
+        "cboden/ratchet": "^0.4.4",
+        "textalk/websocket": "^1.5",
+        "ratchet/pawl": "^0.4.1",
+        "react/socket": "^1.16",
+        "react/promise": "^3.2",
+        "google/apiclient": "^2.18"
+    }
+}

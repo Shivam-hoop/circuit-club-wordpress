@@ -1,0 +1,1600 @@
+# Translation of Plugins - WP Mail SMTP by WPForms &#8211; The Most Popular SMTP and Email Log Plugin - Stable (latest release) in Hindi
+# This file is distributed under the same license as the Plugins - WP Mail SMTP by WPForms &#8211; The Most Popular SMTP and Email Log Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-03 14:46:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-beta.3\n"
+"Language: hi_IN\n"
+"Project-Id-Version: Plugins - WP Mail SMTP by WPForms &#8211; The Most Popular SMTP and Email Log Plugin - Stable (latest release)\n"
+
+#: src/Providers/Gmail/Mailer.php:125
+msgid "The email message ID is missing."
+msgstr "ईमेल संदेश आईडी गायब है।"
+
+#: src/Providers/Gmail/Mailer.php:120
+msgid "The response object is invalid (missing getId method)."
+msgstr "प्रतिक्रिया ऑब्जेक्ट अमान्य है (अनुपलब्ध getId विधि)।"
+
+#: src/Admin/Area.php:430
+msgid "If enabled, these global settings will manage email sending for all subsites of this multisite."
+msgstr "यदि सक्षम किया गया है, तो ये वैश्विक सेटिंग्स इस मल्टीसाइट के सभी उप-प्रजाति के लिए ईमेल भेजने का प्रबंधन करेंगी।"
+
+#: src/Admin/Area.php:428
+msgid "If disabled, each subsite of this multisite will have its own WP Mail SMTP settings page that has to be configured separately."
+msgstr "यदि अक्षम किया गया है, तो इस मल्टीसाइट के प्रत्येक सेंसिट्यूड का अपना डब्लूपी मेल एसएमटीपी सेटिंग पेज होगा जिसे अलग से कॉन्फ़िगर करना होगा।"
+
+#: src/Admin/Area.php:424
+msgid "Make the plugin settings global network-wide"
+msgstr "प्लगइन सेटिंग्स को ग्लोबल नेटवर्क-वाइड बनाएं"
+
+#: src/Admin/Area.php:411
+msgid "Simply enable network-wide settings and every site on your network will inherit the same SMTP settings. Save time and only configure your SMTP provider once."
+msgstr "बस नेटवर्क-वाइड सेटिंग्स को सक्षम करें और आपके नेटवर्क की हर साइट उसी एसएमटीपी सेटिंग्स को इनहेरिट करेगी। समय बचाएं और केवल एक बार अपने एसएमटीपी प्रदाता को कॉन्फ़िगर करें।"
+
+#: src/Admin/Area.php:408
+msgid "Pro+ badge icon"
+msgstr "प्रो+ बैज आइकन"
+
+#: src/Admin/Area.php:418
+msgid "Settings control"
+msgstr "समायोजन नियंत्रण"
+
+#: src/Admin/Area.php:407
+msgid "Multisite"
+msgstr "मल्टीसाइट "
+
+#: src/Providers/OptionsAbstract.php:388
+msgid "The password is encrypted in the database, but for improved security we recommend using your site's WordPress configuration file to set your password."
+msgstr "डेटाबेस में पासवर्ड एन्क्रिप्ट किया गया है, लेकिन बेहतर सुरक्षा के लिए, हम आपका पासवर्ड सेट करने के लिए आपकी साइट की वर्डप्रेस कॉन्फ़िगरेशन फ़ाइल का उपयोग करने की सलाह देते हैं।"
+
+#: src/Providers/Gmail/Auth.php:144
+msgid "Please make sure your Google Client ID and Secret in the plugin settings are valid. Save the settings and try the Authorization again."
+msgstr "कृपया सुनिश्चित करें कि प्लगइन सेटिंग्स में आपकी गूगल क्लाइंट आईडी और सीक्रेट मान्य हैं। सेटिंग्स को सहेजें और प्राधिकरण को पुन: प्रयास करें।"
+
+#: assets/languages/wp-mail-smtp-vue.php:911 src/Core.php:1104
+msgid "Loading"
+msgstr "लोड हो रहा है"
+
+#: src/Admin/Pages/VersusTab.php:249
+msgid "Optionally configure settings at the network level or manage separately for each subsite"
+msgstr "वैकल्पिक रूप से नेटवर्क स्तर पर सेटिंग्स कॉन्फ़िगर करें या प्रत्येक सबसाइट के लिए अलग से प्रबंधन करें"
+
+#: src/Admin/Pages/VersusTab.php:249
+msgid "All Global Network Settings"
+msgstr "सभी वैश्विक नेटवर्क सेटिंग्स"
+
+#: src/Admin/Pages/VersusTab.php:243
+msgid "No Global Network Settings"
+msgstr "कोई वैश्विक नेटवर्क सेटिंग नहीं"
+
+#: src/Admin/Pages/VersusTab.php:179
+msgid "WordPress Multisite"
+msgstr "वर्डप्रेस मल्टीसाइट "
+
+#: src/Admin/Pages/VersusTab.php:229
+msgid "Limited Mailers"
+msgstr "सीमित मेलर्स"
+
+#: src/Admin/Pages/VersusTab.php:235
+msgid "Additional Mailer Options"
+msgstr "अतिरिक्त मेलर विकल्प"
+
+#: src/Admin/Pages/VersusTab.php:178
+msgid "Mailer Options"
+msgstr "मेलर विकल्प"
+
+#: src/Admin/Pages/VersusTab.php:229
+msgid "Access is limited to standard mailer options only"
+msgstr "पहुँच केवल स्टैंडर्ड मेलर विकल्पों तक सीमित है"
+
+#: src/Admin/Pages/VersusTab.php:235
+msgid "Microsoft Outlook (with Office365 support), Amazon SES and Zoho Mail"
+msgstr "माइक्रोसॉफ्ट आउटलुक (ऑफिस 365 सपोर्ट के साथ), अमेजन एसईएस और जोहो मेल"
+
+#: src/Admin/Pages/VersusTab.php:207
+msgid "Access to all Email Logging options right inside WordPress"
+msgstr "वर्डप्रेस के अंदर सभी ईमेल लॉगिंग विकल्पों तक पहुंच"
+
+#: src/SiteHealth.php:176
+msgid "None selected"
+msgstr "कोई भी नहीं चुना गया"
+
+#: src/Providers/Zoho/Options.php:41
+msgid "We're sorry, the Zoho Mail mailer is not available on your plan. Please upgrade to the PRO plan to unlock all these awesome features."
+msgstr "हमें खेद है, आपकी योजना पर ज़ोहो मेल मेलर उपलब्ध नहीं है। कृपया इन सभी बहुत बढ़िया सुविधाओं को अनलॉक करने के लिए प्रो योजना को अपग्रेड करें।"
+
+#: src/SiteHealth.php:159
+msgid "Lite install date"
+msgstr "लाइट स्थापित करने की तारीख"
+
+#: src/SiteHealth.php:160
+msgid "M j, Y @ g:ia"
+msgstr "M j, Y @ g:ia"
+
+#: src/Providers/Zoho/Options.php:25
+msgid "Zoho Mail"
+msgstr "ज़ोहो मेल"
+
+#: assets/languages/wp-mail-smtp-vue.php:409 src/Admin/Pages/MiscTab.php:254
+msgid "By allowing us to track usage data we can better help you because we know with which WordPress configurations, themes and plugins we should test."
+msgstr "हमें उपयोग डेटा को ट्रैक करने की अनुमति देकर हम आपकी बेहतर सहायता कर सकते हैं क्योंकि हम जानते हैं कि हमें कौन से वर्डप्रेस कॉन्फ़िगरेशन, थीम और प्लगइन्स का परीक्षण करना चाहिए।"
+
+#: src/Admin/Pages/MiscTab.php:239
+msgid "Allow Usage Tracking"
+msgstr "उपयोग ट्रैकिंग की अनुमति दें"
+
+#: src/Admin/Education.php:80
+msgid "Dismiss this message."
+msgstr "इस संदेश को खारिज करें।"
+
+#: src/Admin/Notifications.php:490
+msgid "Next message"
+msgstr "अगला संदेश"
+
+#: src/Admin/Notifications.php:486
+msgid "Previous message"
+msgstr "पिछला संदेश"
+
+#: src/Admin/Notifications.php:481
+msgid "Dismiss this message"
+msgstr "सूचना रद्द करें"
+
+#: src/Admin/Pages/AboutTab.php:161
+msgid "Plugin icon"
+msgstr "प्लगइन आइकन"
+
+#. translators: %s - the list of missing tables separated by comma.
+#: src/SiteHealth.php:288
+msgid "Missing table: %s"
+msgid_plural "Missing tables: %s"
+msgstr[0] "गुम तालिका: %s"
+msgstr[1] "गुम तालिका: %s"
+
+#: src/Admin/DebugEvents/Event.php:184 src/Providers/PepipostAPI/Mailer.php:342
+msgid "Error"
+msgstr "त्रुटि"
+
+#: src/Providers/PepipostAPI/Mailer.php:341
+msgid "General error"
+msgstr "सामान्य त्रुटि"
+
+#: src/SiteHealth.php:258
+msgid "WP Mail SMTP DB tables are created"
+msgstr "डब्लूपी मेल एसएमटीपी डेटाबेस टेबल बनाई गई हैं"
+
+#: src/SiteHealth.php:282
+msgid "WP Mail SMTP DB tables check has failed"
+msgstr "डब्लूपी मेल एसएमटीपी डेटाबेस तालिकाओं की जाँच विफल हो गई है"
+
+#: src/SiteHealth.php:264
+msgid "WP Mail SMTP is using custom database tables for some of its features. In order to work properly, the custom tables should be created, and it looks like they exist in your database."
+msgstr "डब्लूपी मेल एसएमटीपी अपनी कुछ विशेषताओं के लिए कस्टम डेटाबेस तालिकाओं का उपयोग कर रहा है। ठीक से काम करने के लिए, कस्टम टेबल बनाई जानी चाहिए, और ऐसा लगता है कि वे आपके डेटाबेस में मौजूद हैं।"
+
+#: src/SiteHealth.php:145
+msgid "DB tables"
+msgstr "डेटाबेस तालिका"
+
+#: src/SiteHealth.php:147
+msgid "No DB tables found."
+msgstr "कोई डेटाबेस तालिका नहीं मिली।"
+
+#: src/SiteHealth.php:102
+msgid "Do WP Mail SMTP DB tables exist?"
+msgstr "क्या डबल्यूपी मेल एसएम्टीपी डेटाबेस तालिका मौजूद है?"
+
+#: src/Admin/Area.php:527 src/Admin/Pages/DebugEventsTab.php:149
+msgid "Cancel"
+msgstr "रद्द"
+
+#: assets/languages/wp-mail-smtp-vue.php:11 src/Admin/Area.php:521
+#: src/Admin/Pages/DebugEventsTab.php:153
+msgid "Heads up!"
+msgstr "सचेत!"
+
+#: src/Admin/Review.php:167
+msgid "I already did"
+msgstr "मैंने पहले से ही कर लिया"
+
+#: src/Admin/Area.php:528
+msgid "Warning icon"
+msgstr "चेतावनी आइकन"
+
+#. translators: %1$s - WP Mail SMTP, %2$s - error message.
+#: src/Migration.php:135
+msgid "There was an error while upgrading the database. Please contact %1$s support with this information: %2$s."
+msgstr "डेटाबेस को अपग्रेड करते समय एक त्रुटि हुई। कृपया इस जानकारी के साथ %1$s समर्थन से संपर्क करें: %2$s।"
+
+#: src/Admin/Area.php:523
+msgid "<p>The Default (PHP) mailer is currently selected, but is not recommended because in most cases it does not resolve email delivery issues.</p><p>Please consider selecting and configuring one of the other mailers.</p>"
+msgstr "<p>डिफ़ॉल्ट (पीएचपी) मेलर वर्तमान में चयनित है, लेकिन अनुशंसित नहीं है क्योंकि ज्यादातर मामलों में यह ईमेल वितरण समस्याओं को हल नहीं करता है।</p><p>कृपया अन्य मेलर्स में से एक को चुनने और कॉन्फ़िगर करने पर विचार करें।</p>"
+
+#: src/Admin/Review.php:156
+msgid "No thanks"
+msgstr "जी नहीं, धन्यवाद"
+
+#: src/Admin/Review.php:144
+msgid "We're sorry to hear you aren't enjoying WP Mail SMTP. We would love a chance to improve. Could you take a minute and let us know what we can do better?"
+msgstr "हमें यह सुनकर खेद है कि आप डब्लूपी मेल एसएमटीपी का आनंद नहीं ले रहे हैं। हमें सुधार करने का मौका मिलेगा। क्या आप एक मिनट ले सकते हैं और हमें बता सकते हैं कि हम क्या बेहतर कर सकते हैं?"
+
+#: src/Admin/Pages/DebugEventsTab.php:151 src/Admin/Review.php:139
+msgid "Yes"
+msgstr "हाँ"
+
+#: src/Admin/Review.php:137
+msgid "Are you enjoying WP Mail SMTP?"
+msgstr "क्या आप डब्लूपी मेल एसएमटीपी का आनंद ले रहे हैं?"
+
+#: src/Admin/Pages/TestTab.php:1334
+msgid "For a quick fix, until your web hosting resolves this, you can downgrade to PHP version 7.3 on your server."
+msgstr "एक त्वरित सुधार के लिए, जब तक आपकी वेब होस्टिंग इसे हल नहीं करती, तब तक आप अपने सर्वर पर पीएचपी संस्करण 7.3 को डाउनग्रेड कर सकते हैं।"
+
+#: src/Admin/Pages/TestTab.php:1245
+msgid "Please make sure you entered an accurate Sender Name in WP Mail SMTP plugin settings."
+msgstr "कृपया सुनिश्चित करें कि आपने डब्लूपी मेल एसएमटीपी प्लगइन सेटिंग्स में एक सटीक प्रेषक नाम दर्ज किया है।"
+
+#: src/Admin/Pages/TestTab.php:1242
+msgid "Your Sender Name option is incorrect."
+msgstr "आपका प्रेषक नाम विकल्प गलत है।"
+
+#: src/Admin/Pages/TestTab.php:1240
+msgid "SMTP.com API Error."
+msgstr "SMTP.com एपीआई त्रुटि।"
+
+#. translators: %s - URL to the PHP openssl manual
+#: src/Admin/Pages/TestTab.php:881
+msgid "Contact your hosting support, show them the \"full Error Log for debugging\" below and share this <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">link</a> with them."
+msgstr "अपने होस्टिंग समर्थन से संपर्क करें, उन्हें नीचे \"डीबगिंग के लिए पूर्ण त्रुटि लॉग\" दिखाएं और उनके साथ इस <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">लिंक</a> को साझा करें।"
+
+#: src/Admin/Pages/TestTab.php:878
+msgid "Verify that the host's SSL certificate is valid."
+msgstr "सत्यापित करें कि होस्ट का एसएसएल प्रमाणपत्र मान्य है।"
+
+#: src/Admin/Pages/TestTab.php:875
+msgid "There are a few reasons why this is happening. It could be that the host certificate is misconfigured, or this server's OpenSSL is using an outdated CA bundle."
+msgstr "ऐसा होने के कुछ कारण हैं। यह हो सकता है कि मेजबान प्रमाणपत्र गलत है, या इस सर्वर का ओपनएसएसएल एक पुराना सीए बंडल का उपयोग कर रहा है।"
+
+#: src/Admin/Pages/TestTab.php:874
+msgid "This means OpenSSL on your server isn't able to verify the host certificate."
+msgstr "इसका अर्थ है कि आपके सर्वर पर ओपनएसएसएल होस्ट प्रमाणपत्र को सत्यापित करने में सक्षम नहीं है।"
+
+#: src/Admin/Pages/TestTab.php:872
+msgid "Misconfigured server certificate."
+msgstr "गलत सर्वर सर्टिफिकेट।"
+
+#. translators: %s - The URL to the constants support article.
+#: src/Admin/Pages/MiscTab.php:118
+msgid "Please read this <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">support article</a> if you want to enable this option using constants."
+msgstr "यदि आप स्थिरांक का उपयोग करके इस विकल्प को सक्षम करना चाहते हैं तो कृपया इस <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">समर्थन लेख</a> को पढ़ें।"
+
+#: src/Admin/Pages/TestTab.php:1122 src/Providers/Gmail/Mailer.php:250
+msgid "Then click the “Allow plugin to send emails using your Google account” button and re-enable access."
+msgstr "फिर \"अपने गूगल खाते का उपयोग करके ईमेल भेजने के लिए प्लगइन की अनुमति दें\" बटन पर क्लिक करें और फिर से सक्षम करें।"
+
+#: src/Providers/Gmail/Mailer.php:248
+msgid "Please re-grant Google app permissions!"
+msgstr "कृपया गूगल एप्लिकेशन अनुमतियों को फिर से प्रदान करें!"
+
+#: src/Admin/Pages/TestTab.php:1333
+msgid "They should be able to resolve this issue for you."
+msgstr "उन्हें आपके लिए इस समस्या को हल करने में सक्षम होना चाहिए।"
+
+#: src/Admin/Pages/TestTab.php:1259
+msgid "Edit your php.ini file on your hosting server."
+msgstr "अपने होस्टिंग सर्वर पर अपने php.ini फ़ाइल को संपादित करें।"
+
+#: src/Admin/Pages/TestTab.php:1254
+msgid "GuzzleHttp requirements."
+msgstr "GuzzleHttp आवश्यकताएं।"
+
+#: src/Admin/Pages/TestTab.php:1262
+msgid "If you don't know how to do the above we strongly suggest contacting your hosting support and provide them the \"full Error Log for debugging\" below and these steps. They should be able to fix this issue for you."
+msgstr "यदि आप नहीं जानते कि उपरोक्त कैसे करें तो हम आपको अपने होस्टिंग समर्थन से संपर्क करने का सुझाव देते हैं और उन्हें नीचे और इन चरणों में \"डीबगिंग के लिए पूर्ण त्रुटि लॉग\" प्रदान करते हैं। उन्हें आपके लिए इस समस्या को ठीक करने में सक्षम होना चाहिए।"
+
+#: src/Admin/Pages/TestTab.php:1256
+msgid "GuzzleHttp requires cURL, the allow_url_fopen ini setting, or a custom HTTP handler."
+msgstr "GuzzleHttp के लिए cURL, allow_url_fopen ini सेटिंग या एक कस्टम एचटीटीपी हैंडलर की आवश्यकता होती है।"
+
+#: src/Admin/Pages/TestTab.php:1328
+msgid "It looks like your server is running PHP version 7.4.x with an outdated PCRE library (libpcre2) that has a known issue with email address validation."
+msgstr "ऐसा लगता है कि आपका सर्वर पीएचपी संस्करण 7.4.x चला रहा है जो एक पुरानी पीसीआरई लाइब्रेरी (libpcre2) के साथ है जिसमें ईमेल पता सत्यापन के साथ एक ज्ञात समस्या है।"
+
+#: src/Admin/Pages/TestTab.php:1260
+msgid "(Recommended) Enable PHP extension: cURL, by adding \"extension=curl\" to the php.ini file (without the quotation marks) OR"
+msgstr "(अनुशंसित) पीएचपी एक्सटेंशन सक्षम करें: cURL, php.ini फ़ाइल में \"extension=curl\" जोड़कर (उद्धरण चिह्नों के बिना) या"
+
+#: src/Admin/Pages/TestTab.php:1261
+msgid "(If cURL can't be enabled on your hosting server) Enable PHP setting: allow_url_fopen, by adding \"allow_url_fopen = On\" to the php.ini file (without the quotation marks)"
+msgstr "(यदि आपके होस्टिंग सर्वर पर cURL को सक्षम नहीं किया जा सकता है) पीएचपी सेटिंग सक्षम करें: allow_url_fopen, php.ini फ़ाइल में (उद्धरण चिह्नों के बिना) \"allow_url_fopen = On\" जोड़कर।"
+
+#: src/Admin/Pages/TestTab.php:1332
+msgid "Contact your web hosting provider and inform them you are having issues with libpcre2 library on PHP 7.4."
+msgstr "अपने वेब होस्टिंग प्रदाता से संपर्क करें और उन्हें सूचित करें कि आप को पीएचपी 7.4 पर libpcre2 लाइब्रेरी के साथ समस्याएँ हैं।"
+
+#: src/Admin/Pages/TestTab.php:1329
+msgid "There is a known issue with PHP version 7.4.x, when using libpcre2 library version lower than 10.33."
+msgstr "पीएचपी संस्करण 7.4.x के साथ एक ज्ञात समस्या है, जब libpcre2 लाइब्रेरी संस्करण 10.33 से कम है।"
+
+#: src/Admin/Pages/TestTab.php:1326
+msgid "PCRE library issue"
+msgstr "पीसीआरई लाइब्रेरी मुद्दा"
+
+#: src/Providers/OptionsAbstract.php:494
+msgid "If you'd prefer not to set up SSL, or need an SMTP solution in the meantime, please select a different mailer option."
+msgstr "यदि आप एसएसएल सेट अप नहीं करना चाहते हैं, या इस बीच आपको एसएमटीपी समाधान की आवश्यकता है, तो कृपया एक अलग मेलर विकल्प चुनें।"
+
+#. translators: %s - Provider name
+#: src/Providers/OptionsAbstract.php:481
+msgid "%s requires an SSL certificate, and so is not currently compatible with your site. Please contact your host to request a SSL certificate, or check out <a href=\"https://www.wpbeginner.com/wp-tutorials/how-to-add-ssl-and-https-in-wordpress/\" target=\"_blank\">WPBeginner's tutorial on how to set up SSL</a>."
+msgstr "%s को एसएसएल प्रमाणपत्र की आवश्यकता होती है, और इसलिए यह वर्तमान में आपकी साइट के अनुकूल नहीं है। एसएसएल प्रमाणपत्र का अनुरोध करने के लिए कृपया अपने होस्ट से संपर्क करें, या <a href=\"https://www.wpbeginner.com/wp-tutorials/how-to-add-ssl-and-https-in-wordpress/\" target=\"_blank\">एसएसएल सेट अप करने के तरीके पर WPBeginner के ट्यूटोरियल</a> की जांच करें।"
+
+#: src/Providers/OptionsAbstract.php:394
+msgid "Learn More"
+msgstr "और अधिक जानें"
+
+#: src/Providers/PepipostAPI/Options.php:55
+msgid "Get Started with Pepipost"
+msgstr "Pepipost के साथ आरंभ करें"
+
+#: src/Providers/SMTPcom/Options.php:155
+msgid "Get Sender Name"
+msgstr "प्रेषक का नाम प्राप्त करें"
+
+#. translators: %s - Channel/Sender Name link for smtp.com documentation.
+#: src/Providers/SMTPcom/Options.php:153
+msgid "Follow this link to get a Sender Name from SMTP.com: %s."
+msgstr "SMTP.com: %s से प्रेषक का नाम पाने के लिए इस लिंक का अनुसरण करें।"
+
+#: assets/languages/wp-mail-smtp-vue.php:488
+#: src/Providers/SMTPcom/Options.php:137
+msgid "Sender Name"
+msgstr "प्रेषक का नाम"
+
+#: src/Providers/Sendlayer/Options.php:115
+#: src/Providers/SMTPcom/Options.php:126
+#: src/Providers/SparkPost/Options.php:111
+msgid "Get API Key"
+msgstr "एपीआई कुंजी प्राप्त करें"
+
+#. translators: %s - API key link.
+#: src/Providers/SMTPcom/Options.php:124
+msgid "Follow this link to get an API Key from SMTP.com: %s."
+msgstr "SMTP.com: %s से एपीआई कुंजी प्राप्त करने के लिए इस लिंक का अनुसरण करें।"
+
+#: src/Providers/SMTPcom/Options.php:82
+msgid "SMTP.com"
+msgstr "SMTP.com"
+
+#: assets/languages/wp-mail-smtp-vue.php:499
+#: src/Providers/SMTPcom/Options.php:68
+msgid "Get Started with SMTP.com"
+msgstr "SMTP.com के साथ आरंभ करें"
+
+#: src/Providers/SMTPcom/Mailer.php:453
+msgid "Channel:"
+msgstr "चैनल:"
+
+#: src/Providers/SMTPcom/Mailer.php:451
+msgid "Api Key:"
+msgstr "एपीआई कुंजी:"
+
+#: src/Admin/Area.php:1277
+msgid "Go to WP Mail SMTP Settings page"
+msgstr "डब्लूपी मेल एसएमटीपी सेटिंग्स पृष्ठ पर जाएं"
+
+#: src/Admin/ConnectionSettings.php:246
+msgid "Don't see what you're looking for?"
+msgstr "यह मत देखो कि तुम क्या देख रहे हो?"
+
+#: src/SiteHealth.php:241 src/SiteHealth.php:375
+msgid "Configure mailer"
+msgstr "मेलर कॉन्फ़िगर करें"
+
+#: src/SiteHealth.php:236
+msgid "The WP Mail SMTP plugin mailer setup is incomplete. Please click on the link below to access plugin settings and configure the mailer."
+msgstr "डब्लूपी मेल एसएमटीपी प्लगइन मेलर सेटअप अधूरा है। प्लगइन सेटिंग्स तक पहुंचने और मेलर को कॉन्फ़िगर करने के लिए कृपया नीचे दिए गए लिंक पर क्लिक करें।"
+
+#: src/SiteHealth.php:230
+msgid "WP Mail SMTP mailer setup is incomplete"
+msgstr "डब्लूपी मेल एसएमटीपी मेलर सेटअप अधूरा है"
+
+#: src/SiteHealth.php:203
+msgid "WP Mail SMTP mailer setup is complete"
+msgstr "डब्लूपी मेल एसएमटीपी मेलर सेटअप अधूरा है"
+
+#: src/SiteHealth.php:217
+msgid "Test email sending"
+msgstr "ईमेल भेजने का परीक्षण"
+
+#: src/SiteHealth.php:212
+msgid "The WP Mail SMTP plugin mailer setup is complete. You can send a test email, to make sure it's working properly."
+msgstr "डब्लूपी मेल एसएमटीपी प्लगइन मेलर सेटअप पूरा हो गया है। आप एक परीक्षण ईमेल भेज सकते हैं, यह सुनिश्चित करने के लिए कि यह ठीक से काम कर रहा है।"
+
+#: src/SiteHealth.php:198
+msgid "Current mailer"
+msgstr "वर्तमान मेलर"
+
+#: src/SiteHealth.php:142
+msgid "No debug notices found."
+msgstr "कोई डिबग नोटिस नहीं मिला।"
+
+#: src/Admin/DebugEvents/Event.php:185 src/SiteHealth.php:141
+msgid "Debug"
+msgstr "डिबग"
+
+#: src/SiteHealth.php:137
+msgid "License key type"
+msgstr "लाइसेंस कुंजी प्रकार"
+
+#: src/SiteHealth.php:97
+msgid "Is WP Mail SMTP mailer setup complete?"
+msgstr "क्या डब्लूपी मेल एसएमटीपी मेलर सेटअप पूर्ण है?"
+
+#: src/Admin/Area.php:519
+msgid "Changes that you made to the settings are not saved!"
+msgstr "आपके द्वारा सेटिंग में किए गए परिवर्तन सहेजे नहीं गए हैं!"
+
+#: src/Admin/Pages/AboutTab.php:341
+msgid "RafflePress Pro"
+msgstr "रैफलप्रेस प्रो"
+
+#: src/SiteHealth.php:225
+msgid "You currently have the default mailer selected, which means that you haven’t set up SMTP yet."
+msgstr "वर्तमान में आपके पास डिफ़ॉल्ट मेलर चयनित है, जिसका अर्थ है कि आपने अभी तक एसएमटीपी सेट नहीं किया है।"
+
+#: src/Admin/Pages/AboutTab.php:335
+msgid "RafflePress"
+msgstr "रैफलप्रेस"
+
+#: src/Admin/ConnectionSettings.php:251
+msgid "Suggest a Mailer"
+msgstr "एक मेलर का सुझाव दें"
+
+#: src/Providers/Pepipost/Options.php:25
+msgid "Pepipost SMTP"
+msgstr "Pepipost एसएमटीपी"
+
+#: src/Providers/PepipostAPI/Options.php:117
+msgid "Get the API Key"
+msgstr "एपीआई कुंजी प्राप्त करें"
+
+#. translators: %1$s - URL to wpmailsmtp.com doc.
+#: src/Providers/PepipostAPI/Options.php:35
+msgid "Read our <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Pepipost documentation</a> to learn how to configure Pepipost and improve your email deliverability."
+msgstr "Pepipost को कॉन्फ़िगर करने और अपनी ईमेल सुपुर्दगी को बेहतर बनाने के तरीके जानने के लिए हमारे <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Pepipost प्रलेखन</a> पढ़ें।"
+
+#. translators: %1$s - URL to pepipost.com site.
+#: src/Providers/PepipostAPI/Options.php:32
+msgid "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Pepipost</a> is a transactional email service. Every month Pepipost delivers over 8 billion emails from 20,000+ customers. Their mission is to reliably send emails in the most efficient way and at the most disruptive pricing ever. Pepipost provides users 30,000 free emails the first 30 days."
+msgstr "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Pepipost</a> एक ट्रांसेक्शनल ईमेल सेवा है। हर महीने पेप्सपोस्ट 20,000+ ग्राहकों से 8 बिलियन से अधिक ईमेल डिलीवर करता है। उनका मिशन मज़बूती से ईमेल को सबसे कुशल तरीके से और सबसे विघटनकारी मूल्य निर्धारण पर भेजना है। Pepipost उपयोगकर्ताओं को पहले 30 दिनों में 30,000 मुफ्त ईमेल प्रदान करता है।"
+
+#: src/Admin/Area.php:654
+msgid "Download"
+msgstr "डाउनलोड"
+
+#. translators: %s - plugin Misc settings page URL.
+#: src/Core.php:488
+msgid "To send emails, go to plugin <a href=\"%s\">Misc settings</a> and disable the \"Do Not Send\" option."
+msgstr "ईमेल भेजने के लिए, <a href=\"%s\">Misc सेटिंग</a> पर जाएं और \"डू नॉट सेंड\" विकल्प को अक्षम करें।"
+
+#. translators: %1$s - constant name; %2$s - constant value.
+#: src/Core.php:481
+msgid "To send emails, change the value of the %1$s constant to %2$s."
+msgstr "ईमेल भेजने के लिए, %1$s के स्थिर %2$s के मूल्य को बदलें।"
+
+#. translators: %s - plugin name and its version.
+#: src/Core.php:474
+msgid "<strong>EMAILING DISABLED:</strong> The %s is currently blocking all emails from being sent."
+msgstr "<strong>ईमेल अक्षम:</strong> %s वर्तमान में सभी ईमेल को भेजे जाने से रोक रहा है।"
+
+#: src/Providers/AmazonSES/Options.php:39
+msgid "We're sorry, the Amazon SES mailer is not available on your plan. Please upgrade to the PRO plan to unlock all these awesome features."
+msgstr "हमें खेद है, अमेज़न एसईएस मेलर आपकी योजना पर उपलब्ध नहीं है। कृपया इन सभी भयानक सुविधाओं को अनलॉक करने के लिए प्रो योजना को अपग्रेड करें।"
+
+#: src/Providers/AmazonSES/Options.php:25
+msgid "Amazon SES"
+msgstr "अमेज़न एसईएस"
+
+#: src/Providers/Outlook/Options.php:39
+msgid "We're sorry, the Microsoft Outlook mailer is not available on your plan. Please upgrade to the PRO plan to unlock all these awesome features."
+msgstr "हमें खेद है, माइक्रोसॉफ्ट आउटलुक मेलर आपकी योजना पर उपलब्ध नहीं है। कृपया इन सभी भयानक सुविधाओं को अनलॉक करने के लिए प्रो योजना को अपग्रेड करें।"
+
+#: src/Admin/Area.php:554 src/Admin/SetupWizard.php:258
+msgid "Already purchased?"
+msgstr "पहले से ही खरीदा गया?"
+
+#: src/Admin/Area.php:348 src/Admin/Area.php:349 src/Admin/Area.php:535
+#: src/Admin/SetupWizard.php:239 src/Reports/Emails/Summary.php:313
+msgid "Upgrade to Pro"
+msgstr "प्रो में अपग्रेड"
+
+#: src/Admin/Area.php:533
+msgid "%name% is a PRO Feature"
+msgstr "%name% एक प्रो सुविधा है"
+
+#: src/Admin/Area.php:1241
+msgid "Educational notice for this mailer was successfully dismissed."
+msgstr "इस मेलर के लिए शैक्षिक नोटिस सफलतापूर्वक खारिज कर दिया गया था।"
+
+#: src/Admin/Pages/MiscTab.php:199
+msgid "<strong>This is not recommended</strong> and should only be done for staging or development sites."
+msgstr "<strong>यह अनुशंसित नहीं है</strong> और केवल मंचन या विकास साइटों के लिए किया जाना चाहिए।"
+
+#. translators: %s - filter that was used to disabled.
+#: src/Admin/Pages/MiscTab.php:190
+msgid "Email Delivery Errors were disabled using a %s filter."
+msgstr "%s फ़िल्टर का उपयोग करके ईमेल वितरण त्रुटियों को अक्षम कर दिया गया था।"
+
+#: src/Admin/Pages/MiscTab.php:165
+msgid "Hide Email Delivery Errors"
+msgstr "ईमेल वितरण त्रुटियों को छिपाएँ"
+
+#. translators: %s - link to get an API Key.
+#: src/Providers/PepipostAPI/Options.php:115
+#: src/Providers/Sendinblue/Options.php:130
+msgid "Follow this link to get an API Key: %s."
+msgstr "एपीआई कुंजी: %s प्राप्त करने के लिए इस लिंक का अनुसरण करें।"
+
+#: src/Providers/Sendinblue/Options.php:132
+msgid "Get v3 API Key"
+msgstr "v3 एपीआई कुंजी प्राप्त करें"
+
+#: src/Providers/OptionsAbstract.php:462
+msgid "Meanwhile you can switch to some other mailers."
+msgstr "इस बीच आप कुछ अन्य मेलर्स पर स्विच कर सकते हैं।"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: wp_mail_smtp.php
+msgid "https://wpmailsmtp.com/"
+msgstr "https://wpmailsmtp.com/"
+
+#: src/Providers/Gmail/Auth.php:257
+msgid "There was an error while processing the Google authentication request. Please make sure that you have Client ID and Client Secret both valid and saved."
+msgstr "गूगल प्रमाणीकरण अनुरोध को संसाधित करते समय एक त्रुटि हुई थी। कृपया सुनिश्चित करें कि आपके पास क्लाइंट आईडी और क्लाइंट सीक्रेट दोनों वैध और सहेजे गए हैं।"
+
+#: assets/languages/wp-mail-smtp-vue.php:807 src/Admin/Area.php:190
+msgid "You have successfully linked the current site with your Google API project. Now you can start sending emails through Gmail."
+msgstr "आपने वर्तमान साइट को अपने गूगल एपीआई प्रोजेक्ट के साथ सफलतापूर्वक लिंक कर लिया है। अब आप जीमेल के जरिए ईमेल भेजना शुरू कर सकते हैं।"
+
+#: src/Admin/Area.php:645 src/Admin/Area.php:653
+#: src/Admin/Pages/AboutTab.php:233 src/Connect.php:55
+msgid "Activate"
+msgstr "सक्रिय"
+
+#. translators: %s - WPMailSMTP.com docs URL with more details.
+#: wp_mail_smtp.php:225
+msgid "<strong>WP Mail SMTP plugin is disabled</strong> on your site until you fix the issue. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read more for additional information.</a>"
+msgstr "जब तक आप समस्या ठीक नहीं करते तब तक <strong>डब्लूपी मेल एसएमटीपी प्लगइन आपकी साइट पर अक्षम है।</strong> <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">अतिरिक्त जानकारी के लिए और पढ़ें।</a>"
+
+#. translators: %1$s - WPBeginner URL for recommended WordPress hosting.
+#: wp_mail_smtp.php:197
+msgid "Your site is running an <strong>insecure version</strong> of PHP that is no longer supported. Please contact your web hosting provider to update your PHP version or switch to a <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">recommended WordPress hosting company</a>."
+msgstr "आपकी साइट पीएचपी का एक <strong>असुरक्षित संस्करण</strong> चला रही है जो अब समर्थित नहीं है। कृपया अपने पीएचपी संस्करण को अद्यतन करने के लिए अपने वेब होस्टिंग प्रदाता से संपर्क करें या <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">अनुशंसित वर्डप्रेस होस्टिंग कंपनी</a> में स्विच करें।"
+
+#: src/Admin/Area.php:1175
+msgid "WP Mail SMTP Pro related message was successfully dismissed."
+msgstr "डबल्यूपी मेल एसएम्टीपी प्रो संबंधित संदेश सफलतापूर्वक खारिज कर दिया गया था।"
+
+#: src/Admin/Area.php:652
+msgid "Install and Activate"
+msgstr "स्थापित करें और सक्रिय करें"
+
+#: src/Admin/Pages/SettingsTab.php:75
+msgid "License Key"
+msgstr "लाइसेंस कुंजी"
+
+#: src/Admin/Pages/SettingsTab.php:67
+msgid "Your license key provides access to updates and support."
+msgstr "आपकी लाइसेंस कुंजी अपडेट और समर्थन तक पहुंच प्रदान करती है।"
+
+#: src/Admin/Pages/SettingsTab.php:64
+msgid "License"
+msgstr "लाइसेंस"
+
+#: src/Admin/Pages/SettingsTab.php:262
+msgid "Amazon SES - harness the power of AWS"
+msgstr "अमेज़ॅन एसईएस - एडब्ल्यूएस की शक्ति का दोहन"
+
+#: src/Admin/Pages/SettingsTab.php:258
+msgid "Email Logging - keep track of every email sent from your site"
+msgstr "ईमेल लॉगिंग - अपनी साइट से भेजे गए हर ईमेल का ट्रैक रखें"
+
+#: src/Admin/Pages/SettingsTab.php:266
+msgid "Manage Notifications - control which emails your site sends"
+msgstr "सूचनाएं प्रबंधित करें - नियंत्रण जो आपकी साइट ईमेल भेजता है"
+
+#: src/Admin/Pages/SettingsTab.php:254
+msgid "Pro Features:"
+msgstr "प्रो सुविधाएँ:"
+
+#: src/Admin/Pages/SettingsTab.php:243
+msgid "Get WP Mail SMTP Pro and Unlock all the Powerful Features"
+msgstr "डब्लूपी मेल एसएमटीपी प्रो प्राप्त करें और सभी शक्तिशाली सुविधाओं को अनलॉक करें"
+
+#: src/Admin/Pages/SettingsTab.php:141
+msgid "You're using WP Mail SMTP Lite - no license needed. Enjoy!"
+msgstr "आप डब्लूपी मेल एसएमटीपी लाइट का उपयोग कर रहे हैं - कोई लाइसेंस की आवश्यकता नहीं है। का आनंद लें!"
+
+#: src/Admin/Area.php:651
+msgid "Could not install a plugin. Please download from WordPress.org and install manually."
+msgstr "एक प्लगइन स्थापित नहीं कर सका। कृपया WordPress.org से डाउनलोड करें और मैन्युअल रूप से इंस्टॉल करें।"
+
+#: src/Admin/Pages/SettingsTab.php:247
+msgid "Thanks for being a loyal WP Mail SMTP user. Upgrade to WP Mail SMTP Pro to unlock more awesome features and experience why WP Mail SMTP is the most popular SMTP plugin."
+msgstr "एक वफादार डब्लूपी मेल एसएमटीपी उपयोगकर्ता होने के लिए धन्यवाद। डब्लूपी मेल एसएमटीपी प्रो को अपग्रेड करें और अधिक भयानक सुविधाओं को अनलॉक करें और अनुभव करें कि डब्लूपी मेल एसएमटीपी सबसे लोकप्रिय एसएमटीपी प्लगइन क्यों है।"
+
+#: src/Admin/Area.php:649
+msgid "Processing..."
+msgstr "संसाधित हो रहा है..."
+
+#. translators: %s - WPMailSMTP.com URL.
+#: src/Admin/Pages/SettingsTab.php:282
+msgid "<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Get WP Mail SMTP Pro Today and Unlock all the Powerful Features &raquo;</a>"
+msgstr "<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">आज डब्लूपी मेल एसएमटीपी प्रो प्राप्त करें और सभी शक्तिशाली सुविधाओं को अनलॉक करें & raquo;</a>"
+
+#: src/Admin/Pages/SettingsTab.php:274
+msgid "Test and verify email delivery"
+msgstr "ईमेल वितरण का परीक्षण और सत्यापन करें"
+
+#: src/Admin/Pages/SettingsTab.php:273
+msgid "Set up domain name verification (DNS)"
+msgstr "डोमेन नाम सत्यापन (डीएनएस) सेट करें"
+
+#: src/Admin/Pages/SettingsTab.php:270
+msgid "White Glove Setup - sit back and relax while we handle everything for you"
+msgstr "व्हाइट ग्लव सेटअप - जब हम आपके लिए सब कुछ संभालते हैं तो आराम से बैठें"
+
+#: src/Admin/Pages/SettingsTab.php:267
+msgid "Access to our world class support team"
+msgstr "हमारी विश्व स्तरीय सहायता टीम तक पहुंच"
+
+#: src/Admin/Pages/TestTab.php:1505
+msgid "Additionally, you can take advantage of our White Glove Setup. Sit back and relax while we handle everything for you! If you simply don't have time or maybe you feel a bit in over your head - we got you covered."
+msgstr "इसके अतिरिक्त, आप हमारे सफेद दस्ताने सेटअप का लाभ उठा सकते हैं। जब हम आपके लिए सब कुछ संभालते हैं, तो वापस बैठें और आराम करें! यदि आपके पास बस समय नहीं है या हो सकता है कि आप अपने सिर के ऊपर थोड़ा महसूस करें - हमने आपको कवर किया है।"
+
+#. translators: %s - WPMailSMTP.com URL.
+#: src/Admin/Pages/TestTab.php:1490
+msgid "To access our world class support, please <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">upgrade to WP Mail SMTP Pro</a>. Along with getting expert support, you will also get Notification controls, Email Logging, and integrations for Amazon SES, Office 365, and Outlook.com."
+msgstr "हमारे विश्व-स्तरीय समर्थन तक पहुँचने के लिए, कृपया <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">डब्लूपी मेल एसएमटीपी प्रो में अपग्रेड</a> करें। विशेषज्ञ सहायता प्राप्त करने के साथ, आपको अमेजन एसईएस, ऑफिस 365 और Outlook.com के लिए अधिसूचना नियंत्रण, ईमेल लॉगिंग और एकीकरण भी मिलेगा।"
+
+#: src/Admin/Pages/AboutTab.php:299
+msgid "MonsterInsights Pro"
+msgstr "मॉन्स्टरइनसाइट्स प्रो"
+
+#: src/Admin/Pages/AboutTab.php:293
+msgid "MonsterInsights"
+msgstr "मॉन्स्टरइनसाइट्स"
+
+#: src/Admin/Area.php:648 src/Admin/Pages/AboutTab.php:230
+msgid "Inactive"
+msgstr "निष्क्रिय"
+
+#. translators: %s - status HTML text.
+#: src/Admin/Pages/AboutTab.php:175
+msgid "Status: %s"
+msgstr "स्थिति: %s"
+
+#: src/Admin/Pages/AboutTab.php:112
+msgid "The WPForms Team"
+msgstr "WPForms टीम"
+
+#: src/Admin/Pages/AboutTab.php:110
+msgid "The WPForms Team photo"
+msgstr "WPForms टीम फोटो"
+
+#: src/Admin/Pages/AboutTab.php:104
+msgid "Yup, we know a thing or two about building awesome products that customers love."
+msgstr "हाँ, ग्राहकों को पसंद आने वाले भयानक उत्पादों के निर्माण के बारे में हम एक या दो जानते हैं।"
+
+#: src/Admin/Pages/AboutTab.php:272
+msgid "OptinMonster"
+msgstr "OptinMonster"
+
+#: src/Admin/Pages/VersusTab.php:180
+msgid "Customer Support"
+msgstr "ग्राहक सहायता"
+
+#: src/Admin/Pages/ControlTab.php:35 src/Admin/Pages/ControlTab.php:237
+#: src/Admin/Pages/VersusTab.php:177
+msgid "Email Controls"
+msgstr "ईमेल नियंत्रण"
+
+#: src/Admin/Pages/VersusTab.php:140
+msgid "Get WP Mail SMTP Pro Today and Unlock all of these Powerful Features"
+msgstr "आज डब्लूपी मेल एसएमटीपी प्रो प्राप्त करें और इन सभी शक्तिशाली सुविधाओं को अनलॉक करें"
+
+#: src/Admin/Pages/VersusTab.php:99
+msgid "Pro"
+msgstr "प्रो"
+
+#: src/Admin/Pages/VersusTab.php:89
+msgid "Feature"
+msgstr "विशेषता"
+
+#: src/Admin/Pages/VersusTab.php:80
+msgid "Get the most out of WP Mail SMTP by upgrading to Pro and unlocking all of the powerful features."
+msgstr "प्रो में अपग्रेड करके और सभी शक्तिशाली विशेषताओं को अनलॉक करके डब्लूपी मेल एसएमटीपी से अधिकतम लाभ प्राप्त करें।"
+
+#: src/Admin/Pages/AboutTab.php:666
+msgid "Plugin installed."
+msgstr "प्लगइन स्थापित किया।"
+
+#: src/Admin/Pages/AboutTab.php:658 src/Connect.php:210 src/Connect.php:218
+#: src/Connect.php:297
+msgid "Plugin installed & activated."
+msgstr "प्लगइन स्थापित और सक्रिय।"
+
+#: src/Admin/Pages/AboutTab.php:577
+msgid "Could not install the plugin."
+msgstr "प्लगइन स्थापित नहीं कर सका।"
+
+#: src/Admin/Pages/AboutTab.php:561
+msgid "Plugin activated."
+msgstr "प्लगिन सक्रिय।"
+
+#: src/Admin/Pages/AboutTab.php:529
+msgid "Could not activate the plugin. Please activate it from the Plugins page."
+msgstr "प्लगइन को सक्रिय नहीं कर सका। कृपया इसे प्लगइन्स पृष्ठ से सक्रिय करें।"
+
+#: src/Admin/Pages/AboutTab.php:285
+msgid "WPForms Pro"
+msgstr "WPForms प्रो"
+
+#: src/Admin/SetupWizard.php:1053
+msgid "Contact Forms by WPForms"
+msgstr "WPForms द्वारा संपर्क फ़ॉर्म"
+
+#: src/Admin/Pages/TestTab.php:956
+msgid "If you do not see activation email, go to your Mailgun control panel and resend the activation email."
+msgstr "यदि आप सक्रियण ईमेल नहीं देखते हैं, तो अपने मेलगुन नियंत्रण पैनल पर जाएँ और सक्रियण ईमेल पुनः भेजें।"
+
+#: src/Admin/Pages/TestTab.php:955
+msgid "Check your inbox you used to create a Mailgun account. Click the activation link in an email from Mailgun."
+msgstr "अपने इनबॉक्स की जाँच करें जिसका उपयोग आपने एक मेलगुन खाता बनाने के लिए किया था। मेलगुन से एक ईमेल में सक्रियण लिंक पर क्लिक करें।"
+
+#: src/Admin/Pages/TestTab.php:952
+msgid "It seems that you forgot to activate your Mailgun account."
+msgstr "ऐसा लगता है कि आप अपने मेलगुन खाते को सक्रिय करना भूल गए।"
+
+#: src/Admin/Pages/TestTab.php:164
+msgid "Enter email address where test email will be sent."
+msgstr "वह ईमेल पता दर्ज करें जहां परीक्षण ईमेल भेजा जाएगा।"
+
+#: src/Admin/Pages/VersusTab.php:263
+msgid "Priority Support"
+msgstr "प्राथमिक समर्थन"
+
+#: src/Admin/Pages/VersusTab.php:257
+msgid "Limited Support"
+msgstr "सीमित समर्थन"
+
+#: src/Admin/Pages/VersusTab.php:221
+msgid "Complete Email Controls management for most default WordPress emails"
+msgstr "अधिकांश डिफ़ॉल्ट वर्डप्रेस ईमेल के लिए ईमेल कंट्रोल को पूरा करें"
+
+#: src/Admin/Pages/VersusTab.php:215
+msgid "No controls over whether default WordPress emails are sent"
+msgstr "डिफ़ॉल्ट वर्डप्रेस ईमेल भेजे जाते हैं या नहीं इस पर कोई नियंत्रण नहीं है"
+
+#: src/Admin/Pages/VersusTab.php:201
+msgid "Emails are not logged"
+msgstr "ईमेल लॉग नहीं हैं"
+
+#: src/Admin/Pages/AboutTab.php:78
+msgid "Our goal is to make reliable email deliverability easy for WordPress."
+msgstr "हमारा लक्ष्य वर्डप्रेस के लिए विश्वसनीय ईमेल डिलीवरी को आसान बनाना है।"
+
+#: src/Admin/Pages/AboutTab.php:75
+msgid "Email deliverability has been a well-documented problem for all WordPress websites. However as WPForms grew, we became more aware of this painful issue that affects our users and the larger WordPress community. So we decided to solve this problem and make a solution that's beginner friendly."
+msgstr "ईमेल वितरण सभी वर्डप्रेस वेबसाइटों के लिए एक अच्छी तरह से प्रलेखित समस्या रही है। हालांकि जैसे-जैसे WPForms बढ़ता गया, हम इस दर्दनाक मुद्दे के बारे में और अधिक जागरूक होते गए जो हमारे उपयोगकर्ताओं और बड़े वर्डप्रेस समुदाय को प्रभावित करता है। इसलिए हमने इस समस्या को हल करने और एक समाधान बनाने का फैसला किया जो शुरुआती अनुकूल है।"
+
+#. translators: %1$s - date, \a\t - specially escaped "at", %2$s - time.
+#: src/WP.php:205
+msgid "%1$s \\a\\t %2$s"
+msgstr "%1$s \\a\\t %2$s"
+
+#: src/Providers/Gmail/Options.php:253
+msgid "You need to save settings with Client ID and Client Secret before you can proceed."
+msgstr "आगे बढ़ने से पहले आपको क्लाइंट आईडी और क्लाइंट सीक्रेट के साथ सेटिंग्स को सहेजना होगा।"
+
+#. translators: %s - email address, as received from Google API.
+#: src/Providers/Gmail/Options.php:218
+msgid "Connected as %s"
+msgstr "%s के रूप में जुड़ा हुआ है"
+
+#: src/Providers/Gmail/Options.php:163
+msgid "Please copy this URL into the \"Authorized redirect URIs\" field of your Google web application."
+msgstr "कृपया इस यूआरएल को अपने गूगल वेब एप्लिकेशन के \"अधिकृत रीडायरेक्ट यूआरआई\" फ़ील्ड में कॉपी करें।"
+
+#: src/Admin/Pages/About.php:50 src/Admin/Pages/AboutTab.php:44
+msgid "About Us"
+msgstr "हमारे बारे में"
+
+#. translators: %s - plugin current license type.
+#: src/Admin/Pages/VersusTab.php:72
+msgid "%s vs Pro"
+msgstr "%s बनाम प्रो"
+
+#: src/Admin/Area.php:437 src/Admin/Area.php:1270
+#: src/Admin/DashboardWidget.php:274 src/Admin/FlyoutMenu.php:100
+#: src/Admin/Pages/AdditionalConnectionsTab.php:115
+#: src/Admin/Pages/AdditionalConnectionsTab.php:125
+#: src/Admin/Pages/AlertsTab.php:90 src/Admin/Pages/AlertsTab.php:268
+#: src/Admin/Pages/ControlTab.php:246 src/Admin/Pages/ControlTab.php:299
+#: src/Admin/Pages/EmailReportsTab.php:137
+#: src/Admin/Pages/EmailReportsTab.php:175 src/Admin/Pages/ExportTab.php:89
+#: src/Admin/Pages/ExportTab.php:146 src/Admin/Pages/LogsTab.php:152
+#: src/Admin/Pages/LogsTab.php:190 src/Admin/Pages/SmartRoutingTab.php:111
+#: src/Admin/Pages/SmartRoutingTab.php:308
+msgid "Upgrade to WP Mail SMTP Pro"
+msgstr "डब्लूपी मेल एसएमटीपी प्रो में अपग्रेड करें"
+
+#: src/Admin/Area.php:327 src/Admin/Area.php:328 src/Admin/Pages/Logs.php:48
+#: src/Admin/Pages/LogsTab.php:51 src/Admin/Pages/LogsTab.php:143
+#: src/Admin/Pages/VersusTab.php:176
+msgid "Email Log"
+msgstr "ईमेल लॉग"
+
+#: src/Admin/Pages/AboutTab.php:71
+msgid "Hello and welcome to WP Mail SMTP, the easiest and most popular WordPress SMTP plugin. We build software that helps your site reliably deliver emails every time."
+msgstr "नमस्कार और डब्लूपी मेल एसएमटीपी में आपका स्वागत है, सबसे आसान और सबसे लोकप्रिय वर्डप्रेस एसएमटीपी प्लगइन। हम ऐसे सॉफ़्टवेयर का निर्माण करते हैं जो आपकी साइट को हर बार ईमेल वितरित करने में मदद करता है।"
+
+#. translators: %1$s - constant that was used; %2$s - file where it was used.
+#: src/Options.php:1497
+msgid "The value of this field was set using a constant %1$s most likely inside %2$s of your WordPress installation."
+msgstr "इस क्षेत्र का मान आपके वर्डप्रेस इंस्टॉलेशन के %2$s के अंदर एक निरंतर %1$s सबसे अधिक संभावना का उपयोग करके सेट किया गया था।"
+
+#: src/Providers/OptionsAbstract.php:380
+msgid "All the defined constants will stop working and you will be able to change all the values on this page."
+msgstr "सभी परिभाषित स्थिरांक काम करना बंद कर देंगे और आप इस पृष्ठ पर सभी मान बदल सकेंगे।"
+
+#. translators: %1$s - wp-config.php file, %2$s - WPMS_ON constant name.
+#: src/Providers/OptionsAbstract.php:370
+msgid "If you want to disable the use of constants, find in %1$s file the constant %2$s and turn if off:"
+msgstr "यदि आप स्थिरांक के उपयोग को अक्षम करना चाहते हैं, तो %1$s में निरंतर %2$s फ़ाइल खोजें और बंद करें:"
+
+#. translators: %s - constant name: WPMS_SMTP_PASS.
+#: src/Providers/OptionsAbstract.php:362
+msgid "To change the password you need to change the value of the constant there: %s"
+msgstr "पासवर्ड बदलने के लिए आपको वहाँ स्थिरांक का मान बदलने की आवश्यकता है: %s"
+
+#: wp_mail_smtp.php:169
+msgid "Please deactivate the free version of the WP Mail SMTP plugin before activating WP Mail SMTP Pro."
+msgstr "डब्लूपी मेल एसएमटीपी प्रो को सक्रिय करने से पहले डब्लूपी मेल एसएमटीपी प्लगइन के मुफ्त संस्करण को निष्क्रिय करें।"
+
+#: src/Admin/Pages/DebugEventsTab.php:377 src/Admin/Pages/MiscTab.php:502
+#: src/Admin/Pages/SettingsTab.php:440
+msgid "Settings were successfully saved."
+msgstr "सेटिंग्स को सफलतापूर्वक सहेज लिया गया था।"
+
+#: src/Admin/Area.php:526 src/Admin/PageAbstract.php:192
+msgid "Save Settings"
+msgstr "सेटिंग्स सहेजें"
+
+#: src/Admin/Pages/MiscTab.php:366
+msgid "Uninstall WP Mail SMTP"
+msgstr "डब्लूपी मेल एसएमटीपी प्लगइन अनइंस्टॉल करें।"
+
+#: src/Admin/Pages/MiscTab.php:140
+msgid "Hide Announcements"
+msgstr "घोषणाएँ छिपाएँ"
+
+#: src/Admin/Pages/MiscTab.php:110
+msgid "Test emails are allowed to be sent, regardless of this option."
+msgstr "इस विकल्प की परवाह किए बिना परीक्षण ईमेल भेजने की अनुमति है।"
+
+#: src/Admin/Pages/MiscTab.php:108
+msgid "You will need to consult with their documentation to switch them to use default WordPress email delivery."
+msgstr "आपको डिफ़ॉल्ट वर्डप्रेस ईमेल डिलीवरी का उपयोग करने के लिए उन्हें स्विच करने के लिए उनके प्रलेखन के साथ परामर्श करने की आवश्यकता होगी।"
+
+#: src/Admin/Pages/MiscTab.php:78
+msgid "Do Not Send"
+msgstr "मत भेजिये"
+
+#: src/Admin/Area.php:393 src/Admin/Area.php:399
+#: src/Admin/Pages/SettingsTab.php:38
+msgid "General"
+msgstr "सामान्य"
+
+#: src/Admin/Pages/MiscTab.php:39
+msgid "Misc"
+msgstr "विविध"
+
+#: src/Admin/Pages/MiscTab.php:100
+msgid "Some plugins, like BuddyPress and Events Manager, are using their own email delivery solutions. By default, this option does not block their emails, as those plugins do not use default <code>wp_mail()</code> function to send emails."
+msgstr "बड्डीप्रेस और इवेंट्स मैनेजर जैसे कुछ प्लगइन्स अपने स्वयं के ईमेल वितरण समाधान का उपयोग कर रहे हैं। डिफ़ॉल्ट रूप से, यह विकल्प उनके ईमेल को ब्लॉक नहीं करता है, क्योंकि वे प्लगइन्स ईमेल भेजने के लिए डिफ़ॉल्ट <code>wp_mail()</code> फ़ंक्शन का उपयोग नहीं करते हैं।"
+
+#: src/Admin/Pages/AboutTab.php:279 src/Admin/Pages/SmartRoutingTab.php:278
+msgid "WPForms"
+msgstr "WPForms"
+
+#. Description of the plugin
+#: wp_mail_smtp.php
+msgid "Reconfigures the <code>wp_mail()</code> function to use Gmail/Mailgun/SendGrid/SMTP instead of the default <code>mail()</code> and creates an options page to manage the settings."
+msgstr "डिफ़ॉल्ट <code>mail()</code> के बजाय जीमेल/मेलगुन/सेंडग्रिड/एसएमटीपी का उपयोग करने के लिए <code>wp_mail()</code> फ़ंक्शन को पुन: कॉन्फ़िगर करता है और सेटिंग्स को प्रबंधित करने के लिए एक विकल्प पृष्ठ बनाता है।"
+
+#: src/Admin/Pages/TestTab.php:727 src/Admin/Pages/TestTab.php:792
+msgid "Typically this error is returned when web server is not configured properly."
+msgstr "आमतौर पर वेब सर्वर ठीक से कॉन्फ़िगर नहीं होने पर यह त्रुटि वापस आ जाती है।"
+
+#: src/Admin/Pages/TestTab.php:726
+msgid "This means your web server cannot reliably make secure connections (make requests to HTTPS sites)."
+msgstr "इसका अर्थ है कि आपका वेब सर्वर सुरक्षित रूप से सुरक्षित कनेक्शन नहीं बना सकता (एचटीटीपीएस साइटों के लिए अनुरोध करें)।"
+
+#: src/Admin/Pages/TestTab.php:724
+msgid "SSL certificate issue."
+msgstr "एसएसएल प्रमाणपत्र मुद्दा।"
+
+#. translators: %s - email address a test email will be sent to.
+#: src/Admin/Pages/TestTab.php:332 src/Admin/Pages/TestTab.php:339
+msgid "Test email to %s"
+msgstr "%s पर ईमेल का परीक्षण करें"
+
+#: src/Admin/Pages/TestTab.php:320
+msgid "Test failed. Please use a valid email address and try to resend the test email."
+msgstr "परीक्षण विफल। कृपया एक मान्य ईमेल पते का उपयोग करें और परीक्षण ईमेल को फिर से भेजने का प्रयास करें।"
+
+#: src/Admin/Pages/TestTab.php:218
+msgid "Send Email"
+msgstr "ईमेल भेजें"
+
+#: src/Admin/Pages/TestTab.php:214
+msgid "You cannot send an email. Mailer is not properly configured. Please check your settings."
+msgstr "आप एक ईमेल नहीं भेज सकते। मेलर ठीक से कॉन्फ़िगर नहीं किया गया है। कृपया अपनी सेटिंग्स जांचें।"
+
+#: src/Admin/Pages/TestTab.php:194
+msgid "Send this email in HTML or in plain text format."
+msgstr "इस ईमेल को एचटीएमएल में या सादे टेक्स्ट प्रारूप में भेजें।"
+
+#: src/Helpers/UI.php:38
+msgid "Off"
+msgstr "बंद"
+
+#: src/Helpers/UI.php:37
+msgid "On"
+msgstr "चालू"
+
+#: src/Admin/Pages/TestTab.php:181
+msgid "HTML"
+msgstr "एचटीएमएल"
+
+#: src/Admin/Pages/AlertsTab.php:153 src/Admin/Pages/TestTab.php:158
+msgid "Send To"
+msgstr "को भेजें"
+
+#: src/Admin/Pages/TestTab.php:113
+msgid "Email Test"
+msgstr "ईमेल परीक्षण"
+
+#: src/Admin/Pages/TestTab.php:809
+msgid "Typically this error is returned when the email or password is not correct or is not what the SMTP host is expecting."
+msgstr "आमतौर पर यह त्रुटि तब आती है जब ईमेल या पासवर्ड सही नहीं होता है या एसएमटीपी होस्ट उम्मीद नहीं करता है।"
+
+#: src/Admin/Pages/TestTab.php:808
+msgid "This means we were able to connect to your SMTP host, but were not able to proceed using the email/password in the settings."
+msgstr "इसका मतलब है कि हम आपके एसएमटीपी होस्ट से कनेक्ट करने में सक्षम थे, लेकिन सेटिंग्स में ईमेल/पासवर्ड का उपयोग करके आगे बढ़ने में सक्षम नहीं थे।"
+
+#: src/Admin/Pages/TestTab.php:806
+msgid "Could not authenticate your SMTP account."
+msgstr "आपके एसएमटीपी खाते को प्रमाणित नहीं किया जा सका।"
+
+#: src/Admin/Pages/TestTab.php:795
+msgid "Contact your web hosting provider and inform them you are having issues making outbound connections."
+msgstr "अपने वेब होस्टिंग प्रदाता से संपर्क करें और उन्हें सूचित करें कि आप आउटबाउंड कनेक्शन बनाने के मुद्दे हैं।"
+
+#: src/Admin/Pages/TestTab.php:784
+msgid "Could not connect to your host."
+msgstr "अपने होस्ट से कनेक्ट नहीं हो सका।"
+
+#: src/Admin/Pages/TestTab.php:758
+msgid "If using \"Other SMTP\" Mailer, contact your SMTP host to confirm they are accepting outside connections with the settings you have configured (address, username, port, security, etc)."
+msgstr "यदि \"अन्य एसएमटीपी\" मेलर का उपयोग कर रहे हैं, तो पुष्टि करने के लिए अपने एसएमटीपी होस्ट से संपर्क करें कि वे आपके द्वारा कॉन्फ़िगर की गई सेटिंग्स (पता, उपयोगकर्ता नाम, पोर्ट, सुरक्षा, आदि) के साथ बाहरी कनेक्शन स्वीकार कर रहे हैं।"
+
+#: src/Admin/Pages/TestTab.php:757
+msgid "If using \"Other SMTP\" Mailer, triple check your SMTP settings including host address, email, and password."
+msgstr "यदि \"अन्य एसएमटीपी\" मेलर का उपयोग कर रहे हैं, तो होस्ट पता, ईमेल और पासवर्ड सहित अपनी एसएमटीपी सेटिंग को ट्रिपल करें।"
+
+#. translators: %s - SMTP host address.
+#: src/Admin/Pages/TestTab.php:754
+msgid "Contact your web hosting provider and ask them to verify your server can connect to %s. Additionally, ask them if a firewall or security policy may be preventing the connection."
+msgstr "अपने वेब होस्टिंग प्रदाता से संपर्क करें और उन्हें सत्यापित करने के लिए कहें कि आपका सर्वर %s से जुड़ सकता है। इसके अतिरिक्त, उनसे पूछें कि क्या फ़ायरवॉल या सुरक्षा नीति कनेक्शन को रोक सकती है।"
+
+#: src/Admin/Pages/TestTab.php:750
+msgid "Typically this error is returned your web server is blocking the connections or the SMTP host denying the request."
+msgstr "आमतौर पर यह त्रुटि लौटा दी जाती है कि आपका वेब सर्वर कनेक्शन बंद कर रहा है या एसएमटीपी होस्ट अनुरोध को अस्वीकार कर रहा है।"
+
+#: src/Admin/Pages/TestTab.php:749 src/Admin/Pages/TestTab.php:791
+#: src/Admin/Pages/TestTab.php:907
+msgid "This means your web server was unable to connect to the host server."
+msgstr "इसका मतलब है कि आपका वेब सर्वर होस्ट सर्वर से कनेक्ट करने में असमर्थ था।"
+
+#. translators: %s - SMTP host address.
+#: src/Admin/Pages/TestTab.php:746 src/Admin/Pages/TestTab.php:788
+#: src/Admin/Pages/TestTab.php:904
+msgid "This means your web server was unable to connect to %s."
+msgstr "इसका अर्थ है कि आपका वेब सर्वर %s से कनेक्ट करने में असमर्थ था।"
+
+#: src/Admin/Pages/TestTab.php:742
+msgid "Could not connect to host."
+msgstr "होस्ट से जुड़ नहीं सका।"
+
+#: src/Admin/Pages/TestTab.php:732 src/Admin/Pages/TestTab.php:797
+msgid "Ask them to resolve the issue then try again."
+msgstr "उनसे इस मुद्दे को हल करने के लिए कहें फिर प्रयास करें।"
+
+#: src/Admin/Pages/TestTab.php:731 src/Admin/Pages/TestTab.php:796
+msgid "The exact error you can provide them is in the Error log, available at the bottom of this page."
+msgstr "इस पृष्ठ के निचले भाग में उपलब्ध त्रुटि त्रुटि में आप उन्हें प्रदान कर सकते हैं।"
+
+#: src/Admin/Pages/TestTab.php:730
+msgid "Contact your web hosting provider and inform them your site has an issue with SSL certificates."
+msgstr "अपने वेब होस्टिंग प्रदाता से संपर्क करें और उन्हें सूचित करें कि आपकी साइट पर एसएसएल प्रमाणपत्र के साथ समस्या है।"
+
+#: src/Admin/Pages/TestTab.php:900
+msgid "Could not connect to the SMTP host."
+msgstr "एसएमटीपी होस्ट से कनेक्ट नहीं हो सका।"
+
+#: src/Admin/Pages/TestTab.php:861
+msgid "Enter correct SMTP Username (usually this is an email address) and Password in the appropriate fields."
+msgstr "उपयुक्त क्षेत्रों में सही एसएमटीपी उपयोगकर्ता नाम (आमतौर पर यह एक ईमेल पता है) और पासवर्ड दर्ज करें।"
+
+#: assets/languages/wp-mail-smtp-vue.php:605 src/Admin/Pages/TestTab.php:860
+msgid "Enable Authentication"
+msgstr "प्रमाणीकरण सक्षम करें"
+
+#: src/Admin/Pages/TestTab.php:772 src/Admin/Pages/TestTab.php:859
+msgid "Go to WP Mail SMTP plugin Settings page."
+msgstr "डब्लूपी मेल एसएमटीपी प्लगइन सेटिंग्स पृष्ठ पर जाएं।"
+
+#: src/Admin/Pages/TestTab.php:856
+msgid "This means the connection to your SMTP host was made successfully, but you should enable Authentication and provide correct Username and Password."
+msgstr "इसका मतलब है कि आपके एसएमटीपी होस्ट का कनेक्शन सफलतापूर्वक बनाया गया था, लेकिन आपको प्रमाणीकरण सक्षम करना चाहिए और सही उपयोगकर्ता नाम और पासवर्ड प्रदान करना चाहिए।"
+
+#: src/Admin/Pages/TestTab.php:854
+msgid "Unauthenticated senders are not allowed."
+msgstr "अनधिकृत प्रेषकों की अनुमति नहीं है।"
+
+#: src/Admin/Pages/TestTab.php:845
+msgid "Verify with them your SMTP account is in good standing and your account has not been flagged."
+msgstr "उनके साथ सत्यापित करें कि आपका एसएमटीपी खाता अच्छी स्थिति में है और आपके खाते को चिह्नित नहीं किया गया है।"
+
+#: src/Admin/Pages/TestTab.php:844
+msgid "Contact your SMTP host to ask about sending/rate limits."
+msgstr "भेजने/दर सीमा के बारे में पूछने के लिए अपने एसएमटीपी होस्ट से संपर्क करें।"
+
+#: src/Admin/Pages/TestTab.php:840
+msgid "Typically this error is returned when you are sending too many e-mails or e-mails that have been identified as spam."
+msgstr "आमतौर पर यह त्रुटि तब होती है जब आप बहुत सारे ई-मेल या ई-मेल भेज रहे होते हैं जिन्हें स्पैम के रूप में पहचाना जाता है।"
+
+#: src/Admin/Pages/TestTab.php:839
+msgid "This means the connection to your SMTP host was made successfully, but the host rejected the email."
+msgstr "इसका मतलब है कि आपके एसएमटीपी होस्ट का कनेक्शन सफलतापूर्वक बनाया गया था, लेकिन होस्ट ने ईमेल को अस्वीकार कर दिया।"
+
+#: src/Admin/Pages/TestTab.php:837
+msgid "Error due to unsolicited and/or bulk e-mail."
+msgstr "अनचाही और/या थोक ई-मेल के कारण त्रुटि।"
+
+#: src/Admin/Pages/TestTab.php:814 src/Admin/Pages/TestTab.php:941
+msgid "Verify with your SMTP host that your account has permissions to send emails using outside connections."
+msgstr "अपने एसएमटीपी होस्ट से सत्यापित करें कि आपके खाते को बाहरी कनेक्शन का उपयोग करके ईमेल भेजने की अनुमति है।"
+
+#: src/Admin/Pages/TestTab.php:813 src/Admin/Pages/TestTab.php:940
+msgid "Contact your SMTP host to confirm you are using the correct username and password."
+msgstr "सही उपयोगकर्ता नाम और पासवर्ड का उपयोग करने की पुष्टि करने के लिए अपने एसएमटीपी होस्ट से संपर्क करें।"
+
+#: src/Admin/Pages/TestTab.php:812
+msgid "Triple check your SMTP settings including host address, email, and password. If you have recently reset your password you will need to update the settings."
+msgstr "ट्रिपल होस्ट एड्रेस, ईमेल और पासवर्ड सहित अपनी एसएमटीपी सेटिंग्स की जाँच करें। यदि आपने हाल ही में अपना पासवर्ड रीसेट किया है, तो आपको सेटिंग्स को अपडेट करना होगा।"
+
+#. translators: %s - Mailgun documentation URL.
+#: src/Admin/Pages/TestTab.php:1013
+msgid "Go to our how-to guide for setting up <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Mailgun with WP Mail SMTP</a>."
+msgstr "<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">डब्लूपी मेल एसएमटीपी के साथ मेलगुन</a> स्थापित करने के लिए हमारे कैसे-कैसे मार्गदर्शन करें।"
+
+#: src/Admin/Pages/TestTab.php:1007
+msgid "Your Mailgun account does not have access to send emails."
+msgstr "आपके मेलगुन खाते में ईमेल भेजने की सुविधा नहीं है।"
+
+#: src/Admin/Pages/TestTab.php:950 src/Admin/Pages/TestTab.php:965
+#: src/Admin/Pages/TestTab.php:1005
+msgid "Mailgun failed."
+msgstr "मेलगुन विफल हुआ।"
+
+#: src/Admin/Pages/TestTab.php:938
+msgid "no"
+msgstr "नहीं"
+
+#: src/Admin/Pages/TestTab.php:922
+msgid "Triple check your SMTP settings including host address, email, and password, port, and security."
+msgstr "ट्रिपल होस्ट एड्रेस, ईमेल और पासवर्ड, पोर्ट और सुरक्षा सहित अपनी एसएमटीपी सेटिंग्स की जाँच करें।"
+
+#: src/Admin/Pages/TestTab.php:917
+msgid "Your SMTP host is rejecting the connection."
+msgstr "आपका एसएमटीपी होस्ट कनेक्शन को अस्वीकार कर रहा है।"
+
+#: src/Admin/Pages/TestTab.php:914 src/Admin/Pages/TestTab.php:1378
+msgid "Your web server is blocking the connection."
+msgstr "आपका वेब सर्वर कनेक्शन ब्लॉक कर रहा है।"
+
+#: src/Admin/Pages/TestTab.php:911
+msgid "SMTP settings are incorrect (wrong port, security setting, incorrect host)."
+msgstr "एसएमटीपी सेटिंग्स गलत हैं (गलत पोर्ट, सुरक्षा सेटिंग, गलत होस्ट)।"
+
+#: src/Admin/Pages/TestTab.php:908 src/Admin/Pages/TestTab.php:1372
+msgid "Typically this error is returned for one of the following reasons:"
+msgstr "आमतौर पर यह त्रुटि निम्न कारणों में से एक के लिए दी जाती है:"
+
+#. translators: %s - Blog article URL.
+#: src/Admin/Pages/TestTab.php:1108
+msgid "Please <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">read this article</a> to learn more about what can cause this error and follow the steps below."
+msgstr "इस त्रुटि के कारण के बारे में अधिक जानने के लिए कृपया <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">इस लेख को पढ़ें</a> और नीचे दिए गए चरणों का पालन करें।"
+
+#: src/Admin/Pages/TestTab.php:1105
+msgid "Unfortunately, this error can be due to many different reasons."
+msgstr "दुर्भाग्य से, यह त्रुटि कई अलग-अलग कारणों से हो सकती है।"
+
+#: src/Admin/Pages/TestTab.php:1094
+msgid "Make sure that the generated email has a TO header, useful when you are responsible for email creation."
+msgstr "सुनिश्चित करें कि जनरेट किए गए ईमेल में एक TO हेडर है, जब आप ईमेल निर्माण के लिए जिम्मेदार होते हैं।"
+
+#. translators: 1 - correct email address example. 2 - incorrect email address
+#. example.
+#: src/Admin/Pages/TestTab.php:1090
+msgid "It should be something like this: %1$s. These are incorrect values: %2$s."
+msgstr "यह कुछ इस तरह होना चाहिए: %1$s। ये गलत मूल्य हैं: %2$s।"
+
+#: src/Admin/Pages/TestTab.php:1088
+msgid "Check the \"Send To\" email address used and confirm it is a valid email and was not empty."
+msgstr "उपयोग किए गए \"को भेजें\" ईमेल पते की जांच करें और पुष्टि करें कि यह एक वैध ईमेल है और खाली नहीं था।"
+
+#. translators: %s - Google support article URL.
+#: src/Admin/Pages/TestTab.php:1047
+msgid "if you are using regular Gmail account, please <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">read this article</a> to proceed."
+msgstr "यदि आप नियमित जीमेल खाते का उपयोग कर रहे हैं, तो कृपया आगे बढ़ने के लिए <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">इस लेख को पढ़ें</a>।"
+
+#: src/Admin/Pages/TestTab.php:1042
+msgid "Please click \"Agree\", if you see that button. If not - you will need to enable less secure apps first:"
+msgstr "कृपया \"सहमत\" पर क्लिक करें, यदि आप उस बटन को देखते हैं। यदि नहीं - तो आपको पहले कम सुरक्षित ऐप्स सक्षम करने की आवश्यकता होगी:"
+
+#: src/Admin/Pages/TestTab.php:1041
+msgid "After the click you should be redirected to a Gmail authorization screen, where you will be asked a permission to send emails on your behalf."
+msgstr "क्लिक के बाद आपको जीमेल प्राधिकरण स्क्रीन पर पुनः निर्देशित किया जाना चाहिए, जहां आपसे आपकी ओर से ईमेल भेजने की अनुमति मांगी जाएगी।"
+
+#: src/Admin/Pages/TestTab.php:1040
+msgid "Go to plugin Settings page and click the \"Allow plugin to send emails using your Google account\" button."
+msgstr "प्लगइन सेटिंग्स पेज पर जाएं और \"अपने गूगल खाते का उपयोग करके ईमेल भेजने के लिए प्लगइन की अनुमति दें\" बटन पर क्लिक करें।"
+
+#: src/Admin/Pages/TestTab.php:1037
+msgid "Make sure that you have clicked the \"Allow plugin to send emails using your Google account\" button under Gmail settings."
+msgstr "सुनिश्चित करें कि आपने जीमेल सेटिंग्स के तहत \"अपने गूगल खाते का उपयोग करके ईमेल भेजने की अनुमति दें\" प्लगइन पर क्लिक किया है।"
+
+#: src/Admin/Pages/TestTab.php:1036
+msgid "You have not properly configured Gmail mailer."
+msgstr "आपने जीमेल मेलर को ठीक से कॉन्फ़िगर नहीं किया है।"
+
+#: src/Admin/Pages/TestTab.php:1034 src/Admin/Pages/TestTab.php:1083
+#: src/Admin/Pages/TestTab.php:1103 src/Admin/Pages/TestTab.php:1131
+#: src/Admin/Pages/TestTab.php:1147 src/Admin/Pages/TestTab.php:1199
+#: src/Admin/Pages/TestTab.php:1225
+msgid "Google API Error."
+msgstr "गूगल एपीआई त्रुटि।"
+
+#: src/Admin/Pages/TestTab.php:1025
+msgid "Complete the steps in section \"2. Verify Your Domain\"."
+msgstr "\"2. अपना डोमेन सत्यापित करें\" अनुभाग में चरणों को पूरा करें।"
+
+#: src/Admin/Pages/TestTab.php:1375
+msgid "Plugin settings are incorrect (wrong SMTP settings, invalid Mailer configuration, etc)."
+msgstr "प्लगइन सेटिंग्स गलत हैं (गलत एसएमटीपी सेटिंग्स, अमान्य मेलर कॉन्फ़िगरेशन, आदि)।"
+
+#: src/Admin/Pages/TestTab.php:1371
+msgid "This means your test email was unable to be sent."
+msgstr "इसका मतलब है कि आपका परीक्षण ईमेल भेजा नहीं जा सका था।"
+
+#: src/Admin/Pages/TestTab.php:1369
+msgid "An issue was detected."
+msgstr "एक समस्या का पता चला था।"
+
+#: src/Admin/Pages/TestTab.php:1231
+msgid "Try to use a separate project for your emails, so the project has only 1 Gmail API in it enabled. You will need to remove the old project and create a new one from scratch."
+msgstr "अपने ईमेल के लिए एक अलग प्रोजेक्ट का उपयोग करने का प्रयास करें, इसलिए प्रोजेक्ट में केवल एक ही जीमेल एपीआई सक्षम है। आपको पुरानी परियोजना को हटाने और खरोंच से एक नया बनाने की आवश्यकता होगी।"
+
+#: src/Admin/Pages/TestTab.php:1227
+msgid "You may have added a new API to a project"
+msgstr "आपने किसी प्रोजेक्ट में एक नया एपीआई जोड़ा हो सकता है"
+
+#. translators: %s - Gmail documentation URL.
+#: src/Admin/Pages/TestTab.php:1205
+msgid "Please follow our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Gmail tutorial</a> to be sure that all the correct project and data is applied."
+msgstr "कृपया यह सुनिश्चित करने के लिए कि सभी सही प्रोजेक्ट और डेटा लागू हैं, हमारे <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">जीमेल ट्यूटोरियल</a> का अनुसरण करें।"
+
+#: src/Admin/Pages/TestTab.php:1202 src/Admin/Pages/TestTab.php:1230
+msgid "Make sure that the used Client ID/Secret correspond to a proper project that has Gmail API enabled."
+msgstr "सुनिश्चित करें कि इस्तेमाल किया गया क्लाइंट आईडी/सीक्रेट एक उचित परियोजना से मेल खाता है जिसमें जीमेल एपीआई सक्षम है।"
+
+#. translators: %s - Google Developers Console URL.
+#: src/Admin/Pages/TestTab.php:1180
+msgid "Make sure that you have Gmail API enabled, and you can do that <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>."
+msgstr "सुनिश्चित करें कि आपके पास जीमेल एपीआई सक्षम है, और आप <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">यहां</a> ऐसा कर सकते हैं।"
+
+#: src/Admin/Pages/TestTab.php:1149
+msgid "There are various reasons for that, please review the steps below."
+msgstr "उसके विभिन्न कारण हैं, कृपया नीचे दिए गए चरणों की समीक्षा करें।"
+
+#: src/Admin/Pages/TestTab.php:1138
+msgid "Make sure there is no aggressive caching on site admin area pages or try to clean cache between attempts."
+msgstr "सुनिश्चित करें कि साइट व्यवस्थापक क्षेत्र पृष्ठों पर कोई आक्रामक कैशिंग नहीं है या प्रयासों के बीच कैश को साफ करने का प्रयास करें।"
+
+#: src/Admin/Pages/TestTab.php:1137
+msgid "Reinstall the plugin with clean plugin data turned on on Misc page. This will remove all the plugin options and you will be safe to retry."
+msgstr "विविध पेज पर चालू किए गए क्लीन प्लगइन डेटा के साथ प्लगइन को पुनर्स्थापित करें। यह सभी प्लगइन विकल्पों को हटा देगा और आप पुनः प्रयास करने के लिए सुरक्षित होंगे।"
+
+#: src/Admin/Pages/TestTab.php:1136
+msgid "Make sure that you are not trying to manually clean up the plugin options to retry the \"Allow...\" step."
+msgstr "सुनिश्चित करें कि आप \"अनुमति दें ...\" चरण को पुन: प्रयास करने के लिए प्लगइन विकल्पों को मैन्युअल रूप से साफ़ करने की कोशिश नहीं कर रहे हैं।"
+
+#: src/Admin/Pages/TestTab.php:1133
+msgid "Authentication code that Google returned to you has already been used on your previous auth attempt."
+msgstr "आपके द्वारा गूगल को लौटाए गए प्रमाणीकरण कोड का उपयोग आपके पहले के पुराने प्रयास में पहले ही किया जा चुका है।"
+
+#. translators: %1$s - SMTP host address, %2$s - SMTP port, %3$s - SMTP
+#. encryption.
+#: src/Admin/Pages/TestTab.php:925
+msgid "Contact your web hosting provider and ask them to verify your server can connect to %1$s on port %2$s using %3$s encryption. Additionally, ask them if a firewall or security policy may be preventing the connection - many shared hosts block certain ports.<br><strong>Note: this is the most common cause of this issue.</strong>"
+msgstr "अपने वेब होस्टिंग प्रदाता से संपर्क करें और उन्हें अपने सर्वर को सत्यापित करने के लिए कहें कि %3$s एन्क्रिप्शन का उपयोग करके पोर्ट %2$s पर %1$s से कनेक्ट कर सकते हैं। इसके अतिरिक्त, उनसे पूछें कि क्या फ़ायरवॉल या सुरक्षा नीति कनेक्शन को रोक सकती है - कई साझा होस्ट कुछ पोर्ट को ब्लॉक करते हैं।<br> <strong>नोट: यह इस मुद्दे का सबसे आम कारण है।</strong>"
+
+#: src/Admin/Pages/TestTab.php:1483
+msgid "WP Mail SMTP is a free plugin, and the team behind WPForms maintains it to give back to the WordPress community."
+msgstr "डब्लूपी मेल एसएमटीपी एक मुफ्त प्लगइन है, और WPForms की टीम वर्डप्रेस समुदाय को वापस देने के लिए इसे बनाए रखती है।"
+
+#: src/Admin/Pages/TestTab.php:1457
+msgid "Need support?"
+msgstr "मदद की ज़रूरत है?"
+
+#: src/Admin/Pages/TestTab.php:1449
+msgid "Recommended next steps:"
+msgstr "अनुशंसित अगले चरण:"
+
+#: src/Admin/Pages/TestTab.php:1432
+msgid "There was a problem while sending the test email."
+msgstr "परीक्षण ईमेल भेजते समय एक समस्या थी।"
+
+#: src/Admin/Pages/TestTab.php:1394
+msgid "Try using a different mailer."
+msgstr "एक अलग मेलर का उपयोग करके देखें।"
+
+#: src/Admin/Pages/TestTab.php:1381
+msgid "Your host is rejecting the connection."
+msgstr "आपका होस्ट कनेक्शन को अस्वीकार कर रहा है।"
+
+#: src/Admin/Pages/TestTab.php:1388
+msgid "Contact your web hosting provider and ask them to verify your server can make outside connections. Additionally, ask them if a firewall or security policy may be preventing the connection - many shared hosts block certain ports.<br><strong>Note: this is the most common cause of this issue.</strong>"
+msgstr "अपने वेब होस्टिंग प्रदाता से संपर्क करें और उनसे पूछें कि आपका सर्वर बाहरी कनेक्शन कर सकता है। इसके अतिरिक्त, उनसे पूछें कि क्या फ़ायरवॉल या सुरक्षा नीति कनेक्शन को रोक सकती है - कई साझा होस्ट कुछ बंदरगाहों को अवरुद्ध करते हैं। <br> <strong> नोट: यह इस मुद्दे का सबसे आम कारण है।</strong>"
+
+#: src/Admin/Area.php:174
+msgid "There was an error while processing the authentication request. Please make sure that you have Client ID and Client Secret both valid and saved."
+msgstr "प्रमाणीकरण अनुरोध को संसाधित करते समय एक त्रुटि हुई थी। कृपया सुनिश्चित करें कि आपके पास क्लाइंट आईडी और क्लाइंट सीक्रेट दोनों वैध और सहेजे गए हैं।"
+
+#: assets/languages/wp-mail-smtp-vue.php:792 src/Admin/Area.php:167
+msgid "There was an error while processing the authentication request. Please try again."
+msgstr "प्रमाणीकरण अनुरोध को संसाधित करते समय एक त्रुटि हुई थी। कृपया पुन: प्रयास करें।"
+
+#. translators: %s - error code, returned by Google API.
+#: src/Admin/Area.php:160
+msgid "There was an error while processing the authentication request: %s. Please try again."
+msgstr "प्रमाणीकरण अनुरोध को संसाधित करते समय एक त्रुटि हुई थी: %s. कृपया पुन: प्रयास करें।"
+
+#: src/Admin/Pages/AboutTab.php:241
+msgid "Not Installed"
+msgstr "स्थापित नहीं है"
+
+#: src/Admin/ConnectionSettings.php:279
+msgid "Dismiss this notice"
+msgstr "इस नोटिस को खारिज करें"
+
+#: src/Admin/Pages/AboutTab.php:244
+msgid "Install Plugin"
+msgstr "प्लगइन स्थापित करें"
+
+#. translators: %s - WPMailSMTP.com account area link.
+#: src/Admin/Pages/TestTab.php:1465
+msgid "As a WP Mail SMTP Pro user you have access to WP Mail SMTP priority support. Please log in to your WPMailSMTP.com account and <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">submit a support ticket</a>."
+msgstr "डब्लूपी मेल एसएमटीपी प्रो उपयोगकर्ता के रूप में आपके पास डब्लूपी मेल एसएमटीपी प्राथमिकता समर्थन है। कृपया अपने WPMailSMTP.com खाते में लॉग इन करें और <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">एक समर्थन टिकट जमा करें</a>।"
+
+#. translators: %s - Mailer anchor link.
+#: src/Admin/Area.php:221
+msgid "Thanks for using WP Mail SMTP! To complete the plugin setup and start sending emails, <strong>please select and configure your <a href=\"%s\">Mailer</a></strong>."
+msgstr "डब्लूपी मेल एसएमटीपी का उपयोग करने के लिए धन्यवाद! प्लगइन सेटअप पूरा करने और ईमेल भेजने शुरू करने के लिए, <strong>कृपया अपना <a href=\"%s\">मेलर</a> चुनें और कॉन्फ़िगर करें</strong>।"
+
+#: src/Admin/ConnectionSettings.php:193
+msgid "Return Path indicates where non-delivery receipts - or bounce messages - are to be sent."
+msgstr "वापसी पथ इंगित करता है कि गैर-डिलीवरी रसीदें - या संदेशों को उछालना - भेजा जाना है।"
+
+#: src/Admin/ConnectionSettings.php:167
+msgid "If checked, the From Name setting above will be used for all emails, ignoring values set by other plugins."
+msgstr "यदि जाँच की जाती है, तो ऊपर के नाम से सेटिंग का उपयोग सभी ईमेल के लिए किया जाएगा, अन्य प्लगइन्स द्वारा निर्धारित मूल्यों की अनदेखी करना।"
+
+#: assets/languages/wp-mail-smtp-vue.php:246
+#: src/Admin/ConnectionSettings.php:146
+msgid "Force From Name"
+msgstr "नाम से बल"
+
+#: src/Admin/ConnectionSettings.php:116
+msgid "If checked, the From Email setting above will be used for all emails, ignoring values set by other plugins."
+msgstr "यदि जाँच की जाती है, तो ऊपर के ईमेल से सेटिंग का उपयोग सभी ईमेल के लिए किया जाएगा, अन्य प्लगइन्स द्वारा निर्धारित मूल्यों की अनदेखी करना।"
+
+#: assets/languages/wp-mail-smtp-vue.php:256
+#: src/Admin/ConnectionSettings.php:95
+msgid "Force From Email"
+msgstr "ईमेल से बल"
+
+#: src/Admin/ConnectionSettings.php:88
+msgid "Please note that other plugins can change this, to prevent this use the setting below."
+msgstr "कृपया ध्यान दें कि अन्य प्लगइन्स इसे बदल सकते हैं, इसे रोकने के लिए नीचे दी गई सेटिंग का उपयोग करें।"
+
+#: src/Admin/ConnectionSettings.php:85
+msgid "If you're using an email provider (Yahoo, Outlook.com, etc) this should be your email address for that account."
+msgstr "यदि आप एक ईमेल प्रदाता (याहू, Outlook.com, आदि) का उपयोग कर रहे हैं तो यह उस खाते के लिए आपका ईमेल पता होना चाहिए।"
+
+#: src/Providers/Mail/Options.php:26
+msgid "Default (none)"
+msgstr "डिफ़ॉल्ट (कोई नहीं)"
+
+#. translators: %s - SendGrid access level.
+#: src/Providers/Sendgrid/Options.php:96
+msgid "To send emails you will need only a %s access level for this API key."
+msgstr "ईमेल भेजने के लिए आपको इस एपीआई कुंजी के लिए केवल %s एक्सेस स्तर की आवश्यकता होगी।"
+
+#: src/Providers/Sendgrid/Options.php:88
+msgid "Create API Key"
+msgstr "एपीआई कुंजी बनाएँ"
+
+#. translators: %s - API key link.
+#: src/Providers/Sendgrid/Options.php:86
+msgid "Follow this link to get an API Key from SendGrid: %s."
+msgstr "सेंडग्रिड से एपीआई कुंजी प्राप्त करने के लिए इस लिंक का अनुसरण करें: %s।"
+
+#: assets/languages/wp-mail-smtp-vue.php:288
+#: src/Providers/PepipostAPI/Options.php:96
+#: src/Providers/Sendgrid/Options.php:67
+#: src/Providers/Sendinblue/Options.php:111
+#: src/Providers/Sendlayer/Options.php:94 src/Providers/SMTPcom/Options.php:106
+#: src/Providers/SparkPost/Options.php:87
+msgid "API Key"
+msgstr "एपीआई कुंजी"
+
+#: src/Providers/Sendgrid/Options.php:29
+msgid "SendGrid"
+msgstr "सेंडग्रिड"
+
+#: src/Providers/SMTP/Options.php:28
+msgid "Other SMTP"
+msgstr "अन्य एसएमटीपी"
+
+#. translators: %s - plugin admin page URL.
+#: src/Core.php:556
+msgid "Please review your WP Mail SMTP settings in <a href=\"%s\">plugin admin area</a>."
+msgstr "कृपया <a href=\"%s\">प्लगइन व्यवस्थापक क्षेत्र</a> में अपनी WP मेल SMTP सेटिंग्स की समीक्षा करें।"
+
+#. translators: %1$s - WP.org link; %2$s - same WP.org link.
+#: src/Admin/Area.php:723
+msgid "Please rate <strong>WP Mail SMTP</strong> <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a> to help us spread the word. Thank you from the WP Mail SMTP team!"
+msgstr "कृपया <strong>डब्लूपी मेल एसएमटीपी</strong> <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> दर करें <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a> पर हमें इस शब्द को फैलाने में मदद करने के लिए। डब्लूपी मेल एसएमटीपी टीम से धन्यवाद!"
+
+#: assets/languages/wp-mail-smtp-vue.php:908 src/Admin/Area.php:646
+#: src/Admin/Pages/AboutTab.php:225
+msgid "Activated"
+msgstr "सक्रिय"
+
+#: src/SiteHealth.php:133
+msgid "Version"
+msgstr "संस्करण"
+
+#: src/Admin/Area.php:647 src/Admin/Pages/AboutTab.php:222
+msgid "Active"
+msgstr "सक्रिय"
+
+#: assets/languages/wp-mail-smtp-vue.php:617
+#: src/Admin/Pages/SettingsTab.php:371 src/Providers/OptionsAbstract.php:251
+msgid "None"
+msgstr "कोई नहीं"
+
+#. translators: %s - URL to Mailgun.com page.
+#: src/Providers/Mailgun/Options.php:151
+msgid "<a href=\"%s\" rel=\"\" target=\"_blank\">More information</a> on Mailgun.com."
+msgstr "Mailgun.com पर <a href=\"%s\" rel=\"\" target=\"_blank\">अधिक जानकारी</a>।"
+
+#: src/Providers/Mailgun/Options.php:146
+msgid "If you are operating under EU laws, you may be required to use EU region."
+msgstr "यदि आप यूरोपियन कानूनों के तहत काम कर रहे हैं, तो आपको यूरोपियन क्षेत्र का उपयोग करने की आवश्यकता हो सकती है।"
+
+#: src/Providers/Mailgun/Options.php:145
+msgid "Define which endpoint you want to use for sending messages."
+msgstr "संदेश भेजने के लिए आप किस समापन बिंदु को परिभाषित करना चाहते हैं।"
+
+#: assets/languages/wp-mail-smtp-vue.php:282
+#: src/Providers/Mailgun/Options.php:141
+#: src/Providers/SparkPost/Options.php:141
+msgid "EU"
+msgstr "यूरोपियन"
+
+#: assets/languages/wp-mail-smtp-vue.php:279
+#: src/Providers/Mailgun/Options.php:132
+#: src/Providers/SparkPost/Options.php:132
+msgid "US"
+msgstr "यूएस"
+
+#: assets/languages/wp-mail-smtp-vue.php:226
+#: src/Providers/Mailgun/Options.php:122
+#: src/Providers/SparkPost/Options.php:122
+msgid "Region"
+msgstr "क्षेत्र"
+
+#: src/Providers/Mailgun/Options.php:111
+msgid "Get a Domain Name"
+msgstr "एक डोमेन नाम प्राप्त करें"
+
+#. translators: %s - Domain Name link.
+#: src/Providers/Mailgun/Options.php:109
+msgid "Follow this link to get a Domain Name from Mailgun: %s."
+msgstr "मेलगुन से एक डोमेन नाम पाने के लिए इस लिंक का पालन करें: %s।"
+
+#: assets/languages/wp-mail-smtp-vue.php:223
+#: src/Providers/Mailgun/Options.php:97
+msgid "Domain Name"
+msgstr "डोमेन नाम"
+
+#: assets/languages/wp-mail-smtp-vue.php:220
+msgid "Private API Key"
+msgstr "निजी एपीआई कुंजी"
+
+#: src/Providers/Mailgun/Options.php:28
+msgid "Mailgun"
+msgstr "मेलगुन"
+
+#: src/Admin/Area.php:518
+msgid "Are you sure you want to reset the current provider connection? You will need to immediately create a new one to be able to send emails."
+msgstr "क्या आप वाकई वर्तमान प्रदाता कनेक्शन को रीसेट करना चाहते हैं? ईमेल भेजने में सक्षम होने के लिए आपको तुरंत एक नया बनाना होगा।"
+
+#: assets/languages/wp-mail-smtp-vue.php:472
+#: src/Providers/Gmail/Options.php:172
+msgid "Authorization"
+msgstr "प्राधिकरण"
+
+#: src/Providers/Gmail/Options.php:158
+msgid "Copy URL to clipboard"
+msgstr "यूआरएल को क्लिपबोर्ड पर कॉपी करें"
+
+#: src/Providers/Gmail/Options.php:150
+msgid "Authorized redirect URI"
+msgstr "प्राधिकृत रीडायरेक्ट यूआरआई"
+
+#: assets/languages/wp-mail-smtp-vue.php:465
+#: src/Providers/Gmail/Options.php:128
+msgid "Client Secret"
+msgstr "ग्राहक गुप्त"
+
+#: assets/languages/wp-mail-smtp-vue.php:462
+#: src/Providers/Gmail/Options.php:113
+msgid "Client ID"
+msgstr "ग्राहक आईडी"
+
+#: assets/languages/wp-mail-smtp-vue.php:611
+#: src/Providers/OptionsAbstract.php:350
+msgid "SMTP Password"
+msgstr "एसएमटीपी पासवर्ड"
+
+#. translators: %1$s - Provider name; %2$s - PHP version required by Provider;
+#. %3$s - current PHP version.
+#: src/Providers/OptionsAbstract.php:455
+msgid "%1$s requires PHP %2$s to work and does not support your current PHP version %3$s. Please contact your host and request a PHP upgrade to the latest one."
+msgstr "%1$s को काम करने के लिए पीएचपी %2$s की आवश्यकता होती है और यह आपके वर्तमान पीएचपी संस्करण %3$s का समर्थन नहीं करता है। कृपया अपने होस्ट से संपर्क करें और नवीनतम के लिए पीएचपी अपग्रेड का अनुरोध करें।"
+
+#: assets/languages/wp-mail-smtp-vue.php:608
+#: src/Providers/OptionsAbstract.php:336
+msgid "SMTP Username"
+msgstr "एसएमटीपी उपयोगकर्ता नाम"
+
+#: assets/languages/wp-mail-smtp-vue.php:593
+#: src/Providers/OptionsAbstract.php:295
+msgid "Auto TLS"
+msgstr "ऑटो टीएलएस"
+
+#: assets/languages/wp-mail-smtp-vue.php:614
+#: src/Providers/OptionsAbstract.php:273
+msgid "For most servers TLS is the recommended option. If your SMTP provider offers both SSL and TLS options, we recommend using TLS."
+msgstr "अधिकांश सर्वरों के लिए टीएलएस अनुशंसित विकल्प है। यदि आपका एसएमटीपी प्रदाता एसएसएल और टीएलएस दोनों विकल्प प्रदान करता है, तो हम टीएलएस का उपयोग करने की सलाह देते हैं।"
+
+#: assets/languages/wp-mail-smtp-vue.php:623
+#: src/Providers/OptionsAbstract.php:269
+msgid "TLS"
+msgstr "टीएलएस"
+
+#: assets/languages/wp-mail-smtp-vue.php:620
+#: src/Providers/OptionsAbstract.php:260
+msgid "SSL"
+msgstr "एसएसएल"
+
+#: src/Providers/PepipostAPI/Options.php:63
+msgid "Pepipost"
+msgstr "Pepipost"
+
+#: src/Providers/Gmail/Options.php:203
+msgid "Click the button above to confirm authorization."
+msgstr "प्राधिकरण की पुष्टि करने के लिए ऊपर दिए गए बटन पर क्लिक करें।"
+
+#: src/Providers/Gmail/Options.php:200
+msgid "Allow plugin to send emails using your Google account"
+msgstr "अपने गूगल खाते का उपयोग करके ईमेल भेजने के लिए प्लगइन की अनुमति दें"
+
+#. translators: %1$s - WP Mail SMTP support policy URL, %2$s - WP Mail SMTP
+#. support forum URL, %3$s - WPMailSMTP.com URL.
+#: src/Admin/Pages/TestTab.php:1528
+msgid "Alternatively, we also offer <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">limited support</a> on the WordPress.org support forums. You can <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">create a support thread</a> there, but please understand that free support is not guaranteed and is limited to simple issues. If you have an urgent or complex issue, then please consider <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">upgrading to WP Mail SMTP Pro</a> to access our priority support ticket system."
+msgstr "वैकल्पिक रूप से, हम WordPress.org समर्थन मंचों पर भी <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">सीमित समर्थन</a> प्रदान करते हैं। आप वहां <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">एक समर्थन धागा बना सकते हैं</a>, लेकिन कृपया यह समझ लें कि मुफ्त समर्थन की गारंटी नहीं है और यह सरल मुद्दों तक सीमित है। यदि आपके पास कोई जरूरी या जटिल समस्या है, तो कृपया हमारी प्राथमिकता समर्थन टिकट प्रणाली का उपयोग करने के लिए <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">डब्लूपी मेल एसएमटीपी प्रो में अपग्रेड</a> करने पर विचार करें।"
+
+#: src/Admin/Area.php:318 src/Admin/Area.php:319 src/Admin/Area.php:1278
+msgid "Settings"
+msgstr "सेटिंग"
+
+#: src/Admin/DashboardWidget.php:570
+msgid "Save Changes"
+msgstr "बदलाव सहेजें"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: wp_mail_smtp.php src/Admin/Area.php:307 src/Admin/Area.php:308
+#: src/Admin/Area.php:365 src/Admin/Area.php:366
+#: src/Admin/DashboardWidget.php:164 src/Admin/DashboardWidget.php:562
+#: src/SiteHealth.php:43
+msgid "WP Mail SMTP"
+msgstr "डब्लूपी मेल एसएमटीपी"
+
+#: assets/languages/wp-mail-smtp-vue.php:535 src/Admin/Pages/TestTab.php:253
+#: src/SiteHealth.php:352
+msgid "Send a Test Email"
+msgstr "एक परीक्षण ईमेल भेजें"
+
+#: assets/languages/wp-mail-smtp-vue.php:602
+#: src/Providers/OptionsAbstract.php:317
+msgid "Authentication"
+msgstr "प्रमाणीकरण"
+
+#: assets/languages/wp-mail-smtp-vue.php:587
+#: src/Providers/OptionsAbstract.php:241
+msgid "Encryption"
+msgstr "एन्क्रिप्शन"
+
+#: assets/languages/wp-mail-smtp-vue.php:590
+#: src/Providers/OptionsAbstract.php:281
+msgid "SMTP Port"
+msgstr "एसएमटीपी पोर्ट"
+
+#: assets/languages/wp-mail-smtp-vue.php:584
+#: src/Providers/OptionsAbstract.php:227
+msgid "SMTP Host"
+msgstr "एसएमटीपी होस्ट"
+
+#: src/Admin/ConnectionSettings.php:177
+msgid "Return Path"
+msgstr "वापसी पथ"
+
+#: assets/languages/wp-mail-smtp-vue.php:653
+#: src/Admin/ConnectionSettings.php:202 src/Admin/Pages/ExportTab.php:125
+msgid "Mailer"
+msgstr "मेलर"
+
+#: assets/languages/wp-mail-smtp-vue.php:242
+#: src/Admin/ConnectionSettings.php:127 src/Admin/Pages/ExportTab.php:111
+msgid "From Name"
+msgstr "नाम से"
+
+#: assets/languages/wp-mail-smtp-vue.php:251
+#: src/Admin/ConnectionSettings.php:70 src/Admin/Pages/SmartRoutingTab.php:180
+#: src/Admin/Pages/SmartRoutingTab.php:210
+msgid "From Email"
+msgstr "ईमेल से"

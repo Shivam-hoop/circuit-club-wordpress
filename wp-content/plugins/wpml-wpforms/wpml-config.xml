@@ -1,0 +1,9 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="0">wpforms</custom-type>
+        <custom-type translate="0">wpforms_log</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="0">wpforms_log_type</taxonomy>
+    </taxonomies>
+</wpml-config>

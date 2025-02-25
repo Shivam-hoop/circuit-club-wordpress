@@ -1,0 +1,127 @@
+#buddypress #item-header-cover-image #item-header-avatar {
+	background-repeat: no-repeat;
+	background-position-x: 22px;
+	background-position-y: 4px;
+}
+
+#buddypress #item-header-cover-image #item-header-avatar #bp-avatar-editor {
+	position: relative;
+	top: auto;
+	right: auto;
+	left: auto;
+	bottom: auto;
+	padding: 0;
+	margin: 0;
+	border: 4px dashed currentColor;
+}
+
+#buddypress #item-header-cover-image #item-header-avatar #bp-avatar-editor {
+	z-index: 1000;
+	float: left;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0 15px 19px 0;
+	background-color: rgba( 255, 255, 255, .7 );
+}
+
+#buddypress #item-header-cover-image #item-header-avatar #bp-avatar-editor .uploader-container.disabled {
+	display: none;
+}
+
+#buddypress #item-header-cover-image #item-header-avatar #bp-avatar-editor .components-drop-zone.enabled.is-dragging-over-element {
+	display: table;
+}
+
+#buddypress #item-header-cover-image #item-header-avatar #bp-avatar-editor .components-drop-zone.enabled.is-dragging-over-element .components-drop-zone__content {
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+}
+
+#buddypress #item-header-cover-image #item-header-avatar #bp-avatar-editor .components-drop-zone.enabled.is-dragging-over-element .components-drop-zone__content .components-drop-zone__content-icon {
+	vertical-align: middle;
+}
+
+#buddypress #item-header-cover-image #item-header-avatar #bp-avatar-editor .enabled .dropzone-label,
+#buddypress #item-header-cover-image #item-header-avatar #bp-avatar-editor .enabled .upload-restrictions {
+	margin: 1.5em 0 0.5em;
+	text-align: center;
+}
+
+#buddypress #item-header-cover-image #item-header-avatar #bp-avatar-editor .enabled .dropzone-label {
+	font-weight: 600;
+}
+
+#buddypress #item-header-cover-image #item-header-avatar #bp-avatar-editor .enabled .dropzone-label h2 {
+	font-size: 15px;
+	line-height: 1.4;
+	font-weight: 600;
+	color: currentColor;
+	text-shadow: none;
+	margin: 0;
+}
+
+#buddypress #item-header-cover-image #item-header-avatar #bp-avatar-editor .enabled .dropzone-label p.upload-instructions {
+	margin: 0;
+	font-size: 15px;
+}
+
+.buddypress .buddypress-wrap button.components-button {
+	font-size: 15px;
+}
+
+#buddypress #item-header-cover-image #item-header-avatar #bp-avatar-editor .enabled .dropzone-label .components-form-file-upload {
+	margin-top: 1em;
+}
+
+#buddypress #bp-avatar-editor-controls .upload-controls {
+	max-width: 214px;
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+#buddypress #bp-avatar-editor-controls .upload-controls label.components-base-control__label {
+	text-align: left;
+	display: block;
+}
+
+#buddypress #item-header-cover-image #item-header-avatar #bp-avatar-editor .bp-profile-image-preview.is-applying {
+	opacity: 0.3;
+}
+
+#buddypress #item-header-cover-image #item-header-avatar #bp-avatar-editor .components-spinner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -9px;
+	margin-left: -9px;
+}
+
+#buddypress #bp-avatar-editor-controls div.bp-avatar-status,
+#buddypress #bp-avatar-editor-controls div.bp-cover-image-status {
+	clear: both;
+	margin: 1em 0;
+	text-align: left;
+}
+
+#buddypress #bp-avatar-editor-controls div.bp-avatar-status p,
+#buddypress #bp-avatar-editor-controls div.bp-cover-image-status p {
+	display: block;
+	padding: 10px 15px;
+}
+
+#buddypress #bp-avatar-editor-controls div.bp-avatar-status.updated p,
+#buddypress #bp-avatar-editor-controls div.bp-cover-image-status.updated p {
+	background-color: #efc;
+	border: 1px solid #591;
+	color: #250;
+}
+
+#buddypress #bp-avatar-editor-controls div.bp-avatar-status.error p,
+#buddypress #bp-avatar-editor-controls div.bp-cover-image-status.error p {
+	background-color: #fdc;
+	border: 1px solid #a00;
+	color: #800;
+}

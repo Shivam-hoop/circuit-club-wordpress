@@ -1,0 +1,30 @@
+{
+	"name": "buddypress",
+	"description": "REST API endpoints for BuddyPress",
+	"homepage": "https://buddypress.org",
+	"bugs": {
+		"url": "https://buddypress.trac.wordpress.org/"
+	},
+	"license": "GPL-2.0-or-later",
+	"author": "BuddyPress Community",
+	"keywords": [
+		"bp-rest",
+		"bp-rest-api",
+		"buddypress",
+		"plugin"
+	],
+	"devDependencies": {
+		"@wordpress/env": "^9.4.0"
+	},
+	"engines": {
+		"node": ">=20.10.0",
+		"npm": ">=10.2.3"
+	},
+	"scripts": {
+		"preinstall": "npx check-node-version --package",
+		"prewp-env": "npx check-node-version --package",
+		"wp-env": "wp-env",
+		"test-php": "npm run wp-env run cli -- --env-cwd=wp-content/plugins/BP-REST/ composer test",
+		"test-php-multisite": "npm run wp-env run cli -- --env-cwd=wp-content/plugins/BP-REST composer test_multi"
+	}
+}

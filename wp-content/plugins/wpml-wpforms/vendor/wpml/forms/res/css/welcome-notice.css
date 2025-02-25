@@ -1,0 +1,31 @@
+.wpml-forms-welcome-notice {
+  padding: 0;
+  padding-inline-end: 30px;
+  position: relative;
+  display: flex;
+  border: 0; }
+  .wrap .wpml-forms-welcome-notice {
+    margin: 15px 0 40px; }
+  @media (max-width: 480px) {
+    .wpml-forms-welcome-notice {
+      display: block; } }
+  .wpml-forms-welcome-notice-bg {
+    flex: 0 0 65px;
+    background: #21759b url("../img/welcome-notice-bg.jpg") no-repeat;
+    background-position: -80px -20px;
+    padding: 15px;
+    position: relative; }
+    @media (max-width: 640px) {
+      .wpml-forms-welcome-notice-bg {
+        display: none; } }
+    .wpml-forms-welcome-notice-bg i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .wpml-forms-welcome-notice-bg i::before {
+        color: #fff;
+        font-size: 48px; }
+  .wpml-forms-welcome-notice-content {
+    padding: 20px;
+    color: #666; }

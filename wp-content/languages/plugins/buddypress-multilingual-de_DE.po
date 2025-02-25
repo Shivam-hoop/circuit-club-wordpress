@@ -1,0 +1,52 @@
+# Translation of Plugins - BuddyPress Multilingual - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - BuddyPress Multilingual - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-03-21 18:40:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - BuddyPress Multilingual - Stable (latest release)\n"
+
+#: includes/functions.php:59
+msgid "For BuddyPress Multilingual to work you must enable WPML together with BuddyPress or BuddyBoss."
+msgstr "Damit BuddyPress Multilingual funktioniert, musst du WPML zusammen mit BuddyPress oder BuddyBoss aktivieren."
+
+#: includes/class.xprofile.php:472
+msgid "Fields registered"
+msgstr "Felder wurden registriert"
+
+#: includes/class.xprofile.php:464
+msgid "Register fields"
+msgstr "Felder registrieren"
+
+#: includes/class.xprofile.php:460
+msgid "Buddypress Multilingual: some profile fields are not registered for translation"
+msgstr "Buddypress Multilingual: Einige Profilfelder sind nicht für die Übersetzung registriert"
+
+#: includes/functions.php:65
+msgid "For BuddyPress Multilingual to work you must set \"Different languages in directories\" in WPML > Languages > Language URL Format"
+msgstr "Damit BuddyPress Multilingual funktioniert, musst du „Verschiedene Sprachen in Verzeichnissen“ in WPML > Sprachen > Sprach-URL-Format einstellen"
+
+#. Author URI of the plugin
+msgid "http://www.onthegosystems.com"
+msgstr "http://www.onthegosystems.com"
+
+#. Author of the plugin
+msgid "OnTheGoSystems"
+msgstr "OnTheGoSystems"
+
+#. Description of the plugin
+msgid "BuddyPress Multilingual. <a href=\"http://wpml.org/?page_id=2890\">Documentation</a>."
+msgstr "BuddyPress Multilingual. <a href=\"http://wpml.org/?page_id=2890\">Dokumentation (engl.)</a>."
+
+#. Plugin URI of the plugin
+msgid "http://wpml.org/?page_id=2890"
+msgstr "http://wpml.org/?page_id=2890"
+
+#. Plugin Name of the plugin
+msgid "BuddyPress Multilingual"
+msgstr "BuddyPress Multilingual"

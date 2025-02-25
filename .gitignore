@@ -1,0 +1,62 @@
+# WordPress core files
+/wp-admin/
+/wp-includes/
+
+# WordPress config files
+wp-config.php
+
+# Log files
+wp-content/debug.log
+
+# Uploads directory
+wp-content/uploads/
+
+# WordPress plugins and themes (optional: only if you manage them outside of version control)
+# wp-content/plugins/
+# wp-content/themes/
+
+# WordPress cache and backup files
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+wp-content/backups/
+wp-content/blogs.dir/
+
+# Ignore files related to server and environment
+.htaccess
+.env
+
+# Composer dependencies
+/vendor/
+
+# Node.js dependencies
+/node_modules/
+
+# SASS/SCSS cache
+.sass-cache/
+
+# IDE/editor settings
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Minified and concatenated files
+*.min.js
+*.min.css
+
+# Other files
+*.log
+*.sql
+*.sqlite
+
+# Ignore any other files you think are unnecessary for your repository
+# Example: Ignore entire wp-content directory except for your custom themes and plugins
+# wp-content/*
+# !wp-content/themes/your-theme/
+# !wp-content/plugins/your-plugin/

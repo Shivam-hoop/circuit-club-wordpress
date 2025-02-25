@@ -1,0 +1,713 @@
+# Translation of Themes - Twenty Twenty-One in Hindi
+# This file is distributed under the same license as the Themes - Twenty Twenty-One package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-08-13 02:12:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: hi_IN\n"
+"Project-Id-Version: Themes - Twenty Twenty-One\n"
+
+#. Theme Name of the theme
+#: classes/class-twenty-twenty-one-dark-mode.php:381 inc/block-patterns.php:24
+#, gp-priority: high
+msgid "Twenty Twenty-One"
+msgstr "ट्वेंटी ट्वेंटी-वन"
+
+#: inc/template-tags.php:241
+msgid "Older <span class=\"nav-short\">posts</span>"
+msgstr "पुराने <span class=\"nav-short\">पोस्टस</span>"
+
+#: inc/template-tags.php:230
+msgid "Newer <span class=\"nav-short\">posts</span>"
+msgstr "नए<span class=\"nav-short\">पोस्टस</span>"
+
+#: classes/class-twenty-twenty-one-customize-notice-control.php:40
+#: classes/class-twenty-twenty-one-dark-mode.php:178
+msgid "https://wordpress.org/documentation/article/twenty-twenty-one/#dark-mode-support"
+msgstr "https://wordpress.org/documentation/article/twenty-twenty-one/#dark-mode-support"
+
+#: classes/class-twenty-twenty-one-dark-mode.php:181
+msgid "Dark Mode can also be turned on and off with a button that you can find in the bottom corner of the page."
+msgstr "डार्क मोड को एक बटन से भी चालू और बंद किया जा सकता है जिसे आप पृष्ठ के निचले कोने में पा सकते हैं।"
+
+#: classes/class-twenty-twenty-one-customize-notice-control.php:39
+msgid "To access the Dark Mode settings, select a light background color."
+msgstr "डार्क मोड सेटिंग्स का प्रयोग करने के लिए, एक हल्के बैकग्राउंड कलर का चयन करें।"
+
+#: classes/class-twenty-twenty-one-dark-mode.php:379
+msgid "Suggested text:"
+msgstr "सुझावित टेक्स्ट:"
+
+#: classes/class-twenty-twenty-one-dark-mode.php:188
+msgid "Dark Mode support"
+msgstr "डार्क मोड सपोर्ट"
+
+#: classes/class-twenty-twenty-one-dark-mode.php:134
+msgid "Colors & Dark Mode"
+msgstr "रंग और डार्क मोड"
+
+#: classes/class-twenty-twenty-one-customize-notice-control.php:41
+msgid "Learn more about Dark Mode."
+msgstr "डार्क मोड के बारे में और अधिक जानें।"
+
+#: classes/class-twenty-twenty-one-dark-mode.php:378
+msgid "Twenty Twenty-One uses LocalStorage when Dark Mode support is enabled."
+msgstr "डार्क मोड समर्थन सक्षम होने पर ट्वेंटी ट्वेंटी-वन लोकलस्टोरेज का उपयोग करता है।"
+
+#: inc/template-tags.php:77
+msgctxt "Label for sticky posts"
+msgid "Featured post"
+msgstr "प्रदर्शित पोस्ट"
+
+#: inc/template-functions.php:424
+msgctxt "Post password form"
+msgid "Password"
+msgstr "पासवर्ड"
+
+#: inc/template-functions.php:183
+msgctxt "Added to posts and pages that are missing titles"
+msgid "Untitled"
+msgstr "शीर्षकहीन"
+
+#: inc/template-functions.php:424
+msgctxt "Post password form"
+msgid "Submit"
+msgstr "सबमिट करें"
+
+#: inc/block-patterns.php:136
+msgctxt "Block pattern sample content"
+msgid "example@example.com"
+msgstr "example@example.com"
+
+#: classes/class-twenty-twenty-one-customize.php:138
+msgctxt "Customizer control"
+msgid "Background color"
+msgstr "पृष्ठभूमि का रंग"
+
+#: inc/block-patterns.php:136
+msgctxt "Block pattern sample content"
+msgid "123-456-7890"
+msgstr "‎123-456-7890"
+
+#: inc/block-patterns.php:136
+msgctxt "Block pattern sample content"
+msgid "123 Main Street"
+msgstr "123 मुख्य गली"
+
+#: inc/block-patterns.php:136
+msgctxt "Block pattern sample content"
+msgid "Cambridge, MA, 02139"
+msgstr "कैम्ब्रिज, एमए, 02139"
+
+#. translators: %s: WordPress Version.
+#: inc/back-compat.php:42 inc/back-compat.php:61 inc/back-compat.php:86
+msgid "This theme requires WordPress 5.3 or newer. You are running version %s. Please upgrade."
+msgstr "इस थीम में वर्डप्रेस 5.3 या नए की आवश्यकता है। आप संस्करण %s चला रहे हैं। कृपया अपग्रेड करें।"
+
+#: functions.php:187
+msgctxt "Font size"
+msgid "XXXL"
+msgstr "XXXL"
+
+#: functions.php:181
+msgctxt "Font size"
+msgid "XXL"
+msgstr "XXL"
+
+#: functions.php:175
+msgctxt "Font size"
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:169
+msgctxt "Font size"
+msgid "L"
+msgstr "L"
+
+#: functions.php:163
+msgctxt "Font size"
+msgid "M"
+msgstr "M"
+
+#: functions.php:151
+msgctxt "Font size"
+msgid "XS"
+msgstr "XS"
+
+#. translators: %s: Comment count number.
+#: comments.php:39
+msgctxt "Comments title"
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s टिप्पणी"
+msgstr[1] "%s टिप्पणियाँ"
+
+#: functions.php:157
+msgctxt "Font size"
+msgid "S"
+msgstr "S"
+
+#: classes/class-twenty-twenty-one-dark-mode.php:334
+msgid "On"
+msgstr "ऑन"
+
+#: classes/class-twenty-twenty-one-dark-mode.php:331
+msgid "Off"
+msgstr "ऑफ"
+
+#. translators: %: Page number.
+#: image.php:48 template-parts/content/content-page.php:36
+#: template-parts/content/content-single.php:30
+#: template-parts/content/content.php:36
+msgid "Page %"
+msgstr "पृष्ठ %"
+
+#: comments.php:34
+msgid "1 comment"
+msgstr "1 टिप्पणी"
+
+#. translators: %s: On/Off
+#: classes/class-twenty-twenty-one-dark-mode.php:321
+msgid "Dark Mode: %s"
+msgstr "डार्क मोड: %s"
+
+#: comments.php:85
+msgid "Leave a comment"
+msgstr "टिप्पणी करे"
+
+#. translators: Hidden accessibility text.
+#: inc/menu-functions.php:35
+msgid "Open menu"
+msgstr "मेनू खोलें"
+
+#: inc/block-patterns.php:101
+msgid "&#8220;Daffodils&#8221; by Berthe Morisot"
+msgstr "&#8220;डैफ़ोडिलस&#8221;बर्थे मोरिसोट द्वारा"
+
+#: inc/block-patterns.php:125
+msgid "&#8220;Reading&#8221; by Berthe Morisot"
+msgstr "&#8220;रीडिंग&#8221; बर्थे मोरिसोट द्वारा"
+
+#: inc/block-patterns.php:101
+msgid "&#8220;Self portrait&#8221; by Berthe Morisot"
+msgstr "&#८२२०;सेल्फ पोट्रैट&#८२२१;बर्थे मोरिसोट द्वारा"
+
+#: inc/block-patterns.php:89 inc/block-patterns.php:125
+#: inc/starter-content.php:43
+msgid "&#8220;Roses Trémières&#8221; by Berthe Morisot"
+msgstr "&#८२२०;रोजेज ट्रेमिएरेस&#८२२१; बर्थे मोरिसोट द्वारा"
+
+#: inc/template-functions.php:422
+msgid "This content is password protected. Please enter a password to view."
+msgstr "यह सामग्री पासवर्ड से सुरक्षित है. देखने के लिए कृपया पासवर्ड दर्ज करें।"
+
+#: inc/template-functions.php:424
+msgctxt "Post password form"
+msgid "Enter"
+msgstr "एंटर"
+
+#: inc/starter-content.php:112
+msgctxt "Theme starter content"
+msgid "Need help?"
+msgstr "मदद की ज़रूरत है?"
+
+#: inc/starter-content.php:93
+msgctxt "Theme starter content"
+msgid "Overlap columns"
+msgstr "ओवरलैप कॉलमस"
+
+#: inc/starter-content.php:73
+msgctxt "Theme starter content"
+msgid "Add block patterns"
+msgstr "ब्लॉक पैटर्नस जोड़ें"
+
+#: inc/starter-content.php:30 inc/starter-content.php:33
+msgctxt "Theme starter content"
+msgid "Create your website with blocks"
+msgstr "ब्लॉकस के साथ अपनी वेबसाइट बनाएं"
+
+#: inc/block-patterns.php:125
+msgid "Reading"
+msgstr "पढ़ना"
+
+#: inc/block-patterns.php:125
+msgid "Young Woman in Mauve"
+msgstr "मौवे में युवा महिला"
+
+#: inc/block-patterns.php:114
+msgid "&#8220;Villa with Orange Trees, Nice&#8221; by Berthe Morisot"
+msgstr "&#8220;विला विथ ऑरेंज ट्री, नाइस&#8221;बेर्थे मोरिसॉट द्वारा"
+
+#: inc/starter-content.php:83
+msgctxt "Theme starter content"
+msgid "Frame your images"
+msgstr "अपनी तस्वीरो को फ़्रेम करें"
+
+#: inc/block-patterns.php:125
+msgid "The Garden at Bougival"
+msgstr "बूजिवाल के बगीचे"
+
+#: inc/block-patterns.php:125
+msgid "In the Bois de Boulogne"
+msgstr "ब्वा दे बूलोग्ने में"
+
+#: inc/starter-content.php:128
+msgctxt "Theme starter content"
+msgid "Check out the Support Forums"
+msgstr "सहायता फोरम देखें"
+
+#: inc/starter-content.php:122
+msgctxt "Theme starter content"
+msgid "Read the Theme Documentation"
+msgstr "थीम दस्तावेज़ पढ़ें"
+
+#: inc/block-patterns.php:125
+msgid "Villa with Orange Trees, Nice"
+msgstr "नाइस में संतरे के पेड़ों वाला विला"
+
+#: inc/block-patterns.php:114
+msgid "Beautiful gardens painted by Berthe Morisot in the late 1800s"
+msgstr "1800 के दशक के अंत में बर्थे मोरिसोट द्वारा चित्रित सुंदर उद्यान"
+
+#: inc/block-patterns.php:125
+msgid "Roses Trémières"
+msgstr "रोजेज ट्रेमिएरेस"
+
+#: inc/block-patterns.php:89 inc/block-patterns.php:125
+#: inc/starter-content.php:61
+msgid "&#8220;Young Woman in Mauve&#8221; by Berthe Morisot"
+msgstr "&#8220;यंग वुमन इन मौवे&#8221; बेर्थे मोरिसॉट द्वारा"
+
+#: inc/block-patterns.php:89 inc/block-patterns.php:125
+#: inc/starter-content.php:51
+msgid "&#8220;In the Bois de Boulogne&#8221; by Berthe Morisot"
+msgstr "&#8220;इन धी बोइस डे बोलोग्ने&#8221; बेर्थे मोरिसॉट द्वारा"
+
+#: inc/block-patterns.php:76
+msgid "&#8220;Playing in the Sand&#8221; by Berthe Morisot"
+msgstr "&#8220;प्लेइंग इन धी सैंड&#8221;बेर्थे मोरिसॉट द्वारा"
+
+#. translators: %s: Parent post.
+#: image.php:61
+msgid "Published in %s"
+msgstr "%s में प्रकाशित"
+
+#: classes/class-twenty-twenty-one-customize.php:108
+msgid "Summary"
+msgstr "सारांश"
+
+#: classes/class-twenty-twenty-one-customize.php:85
+msgid "Excerpt Settings"
+msgstr "अंश सेटिंग्स"
+
+#: inc/block-patterns.php:76
+msgid "Berthe Morisot<br>(French, 1841-1895)"
+msgstr "बर्थे मोरिसोट<br>(फ़्रेंच, 1841-1895)"
+
+#: inc/block-patterns.php:114 inc/block-patterns.php:125
+msgid "&#8220;The Garden at Bougival&#8221; by Berthe Morisot"
+msgstr "&#8220;द गार्डन एट बाउगिवल&#8221; बर्थे मोरिसोट द्वारा"
+
+#: inc/block-patterns.php:76
+msgid "Playing in the Sand"
+msgstr "प्लेइंग इन द सैंड"
+
+#: inc/block-styles.php:98
+msgid "Thick"
+msgstr "मोटा"
+
+#: classes/class-twenty-twenty-one-customize.php:106
+msgid "On Archive Pages, posts show:"
+msgstr "पुरालेख पृष्ठों पर, पोस्ट दिखाई देती हैं:"
+
+#. translators: %s: Author name.
+#: template-parts/post/author-bio.php:31
+msgid "View all of %s's posts."
+msgstr "%2$s के सभी पोस्ट देखें।"
+
+#. translators: %s: Author name.
+#: inc/template-tags.php:49 template-parts/post/author-bio.php:19
+msgid "By %s"
+msgstr "%s द्वारा"
+
+#: template-parts/content/content-none.php:56
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "क्षमा करें, लेकिन आपके खोज शब्दों से कुछ भी मेल नहीं खाता। कृपया कुछ अलग कीवर्ड के साथ फ़िर से कोशिश करें।"
+
+#: single.php:40
+msgid "Previous post"
+msgstr "पिछला पोस्ट"
+
+#: single.php:39
+msgid "Next post"
+msgstr "अगला पोस्ट"
+
+#. translators: %s: Parent post link.
+#: single.php:25
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</span>"
+msgstr "<span class=\"post-title\">%s</span><span class=\"meta-nav\">में प्रकाशित</span>"
+
+#. translators: %d: The number of search results.
+#: search.php:33
+msgid "We found %d result for your search."
+msgid_plural "We found %d results for your search."
+msgstr[0] "हमें आपकी खोज का %d परिणाम मिला।"
+msgstr[1] "हमें आपकी खोज के लिए %d परिणाम मिले।"
+
+#. translators: %s: Search term.
+#: search.php:21 template-parts/content/content-none.php:22
+msgid "Results for \"%s\""
+msgstr "\"%s\" के लिए परिणाम"
+
+#. translators: %s: List of tags.
+#: inc/template-tags.php:116 inc/template-tags.php:158
+msgid "Tagged %s"
+msgstr "टैग किया गया %s"
+
+#. translators: %s: List of categories.
+#: inc/template-tags.php:107 inc/template-tags.php:149
+msgid "Categorized as %s"
+msgstr "%s के रूप में वर्गीकृत किया गया है"
+
+#. translators: Used between list items, there is a space after the comma.
+#: functions.php:654
+msgid ", "
+msgstr ","
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: image.php:70 image.php:96 inc/template-tags.php:92 inc/template-tags.php:133
+#: template-parts/content/content-page.php:48
+msgid "Edit %s"
+msgstr "%s संपादित करें"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-functions.php:138
+msgid "Continue reading %s"
+msgstr "%s पढ़ना जारी रखें"
+
+#: inc/block-styles.php:62
+msgid "Frame"
+msgstr "ढांचा"
+
+#: inc/block-styles.php:35 inc/block-styles.php:44 inc/block-styles.php:53
+#: inc/block-styles.php:80 inc/block-styles.php:89
+msgid "Borders"
+msgstr "किनारे"
+
+#: inc/block-patterns.php:132
+msgid "Contact information"
+msgstr "संपर्क जानकारी"
+
+#: inc/block-patterns.php:97
+msgid "Two images showcase"
+msgstr "दो तस्वीरों का शो-कैस"
+
+#: inc/block-patterns.php:64
+msgid "example@example.com"
+msgstr "example@example.com"
+
+#: inc/block-patterns.php:64
+msgid "Dribbble"
+msgstr "ड्रिबर्बल"
+
+#: inc/block-patterns.php:64
+msgid "Instagram"
+msgstr "इंस्टाग्राम"
+
+#: inc/block-patterns.php:64
+msgid "Twitter"
+msgstr "ट्विटर"
+
+#: inc/block-patterns.php:64
+msgid "Let&#8217;s Connect."
+msgstr "कनेक्ट करते हैं।"
+
+#: inc/block-patterns.php:59
+msgid "Links area"
+msgstr "लिंकस क्षेत्र"
+
+#. translators: %s: Publish date.
+#: inc/template-tags.php:29
+msgid "Published %s"
+msgstr "प्रकाशित %s"
+
+#: template-parts/header/site-nav.php:19
+msgid "Close"
+msgstr "बंद करे"
+
+#: template-parts/header/site-nav.php:16
+msgid "Menu"
+msgstr "मेनू"
+
+#: functions.php:76 inc/starter-content.php:154
+#: template-parts/header/site-nav.php:13
+msgid "Primary menu"
+msgstr "मुख्य मेनू"
+
+#: functions.php:361
+msgid "Footer"
+msgstr "फुटर"
+
+#: functions.php:309
+msgid "Red to purple"
+msgstr "लाल से बैंगनी"
+
+#: functions.php:304
+msgid "Purple to red"
+msgstr "बैंगनी से लाल"
+
+#: functions.php:299
+msgid "Yellow to red"
+msgstr "पीले से लाल"
+
+#: functions.php:294
+msgid "Red to yellow"
+msgstr "लाल से पीला"
+
+#: functions.php:289
+msgid "Yellow to green"
+msgstr "पीले से हरा"
+
+#: functions.php:284
+msgid "Green to yellow"
+msgstr "हरा से पीला"
+
+#: functions.php:279
+msgid "Yellow to purple"
+msgstr "पीले से बैंगनी"
+
+#: functions.php:274
+msgid "Purple to yellow"
+msgstr "बैंगनी से पीला"
+
+#: functions.php:263
+msgid "White"
+msgstr "सफेद"
+
+#: functions.php:258
+msgid "Yellow"
+msgstr "पीला"
+
+#: functions.php:253
+msgid "Orange"
+msgstr "केसरी"
+
+#: functions.php:248
+msgid "Red"
+msgstr "लाल"
+
+#: functions.php:243
+msgid "Purple"
+msgstr "बैंगनी"
+
+#: functions.php:238
+msgid "Blue"
+msgstr "नीला"
+
+#: functions.php:233
+msgid "Green"
+msgstr "हरा"
+
+#: functions.php:228
+msgid "Gray"
+msgstr "धुमैला"
+
+#: functions.php:223 inc/block-styles.php:107
+msgid "Dark gray"
+msgstr "गहरा धुमैला"
+
+#: functions.php:218
+msgid "Black"
+msgstr "काला"
+
+#: functions.php:186
+msgid "Gigantic"
+msgstr "महाकाय"
+
+#: functions.php:180
+msgid "Huge"
+msgstr "विशाल"
+
+#: functions.php:174
+msgid "Extra large"
+msgstr "ज्यादा बड़ा"
+
+#: functions.php:168
+msgid "Large"
+msgstr "बड़ा"
+
+#: functions.php:162
+msgid "Normal"
+msgstr "सामान्य"
+
+#: functions.php:156
+msgid "Small"
+msgstr "छोटा"
+
+#: functions.php:150
+msgid "Extra small"
+msgstr "ज्यादा छोटा"
+
+#: footer.php:24 functions.php:77 inc/starter-content.php:165
+msgid "Secondary menu"
+msgstr "माध्यमिक मेनू"
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr "टिप्पणियाँ बंद हैं।"
+
+#: comments.php:70
+msgid "Newer comments"
+msgstr "नई टिप्पणियाँ"
+
+#: comments.php:66
+msgid "Older comments"
+msgstr "पुरानी टिप्पणियाँ"
+
+#: classes/class-twenty-twenty-one-customize.php:75
+msgid "Display Site Title & Tagline"
+msgstr "साइट का शीर्षक और टैगलाइन प्रदर्शित करें"
+
+#: 404.php:16 template-parts/content/content-none.php:30
+msgid "Nothing here"
+msgstr "यहाँ कुछ भी नहीं है"
+
+#: comments.php:61 image.php:45 inc/template-tags.php:224
+#: template-parts/content/content-page.php:33
+#: template-parts/content/content-single.php:27
+#: template-parts/content/content.php:33
+msgid "Page"
+msgstr "पृष्ठ"
+
+#: searchform.php:26
+msgctxt "submit button"
+msgid "Search"
+msgstr "खोजे"
+
+#: inc/block-styles.php:26
+msgid "Overlap"
+msgstr "ओवरलैप"
+
+#: inc/block-styles.php:71
+msgid "Dividers"
+msgstr "विभाजक"
+
+#. translators: Hidden accessibility text.
+#: image.php:84
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "पूर्ण आकार"
+
+#: classes/class-twenty-twenty-one-customize.php:109
+msgid "Full text"
+msgstr "पूरा टेक्स्ट"
+
+#: inc/block-patterns.php:47
+msgid "Large text"
+msgstr "बड़ा टेक्स्ट"
+
+#: inc/block-patterns.php:122
+msgid "Portfolio list"
+msgstr "पोर्टफोलियो लिस्ट"
+
+#: searchform.php:24
+msgid "Search&hellip;"
+msgstr "खोजें&hellip;"
+
+#. translators: Hidden accessibility text.
+#: header.php:29
+msgid "Skip to content"
+msgstr "सामग्री पर जाएं"
+
+#: inc/block-patterns.php:84
+msgid "Overlapping images"
+msgstr "चित्रों का ओवरलैपिंग"
+
+#. translators: %s: WordPress.
+#: footer.php:67
+msgid "Proudly powered by %s."
+msgstr "गर्व से %s द्वारा संचालित।"
+
+#: inc/block-patterns.php:72
+msgid "Media and text article title"
+msgstr "मीडिया और टेक्स्ट लेख का शीर्षक"
+
+#: inc/block-patterns.php:124
+msgctxt "Block pattern description"
+msgid "A list of projects with thumbnail images."
+msgstr "थंबनेल चित्रों के साथ प्रोजेक्ट सूची।"
+
+#: functions.php:363
+msgid "Add widgets here to appear in your footer."
+msgstr "फूटर में विजेट दिखाने के लिए यहाँ डालें।"
+
+#: inc/block-patterns.php:51
+msgid "A new portfolio default theme for WordPress"
+msgstr "वर्डप्रेस के लिए एक नया पोर्टफोलियो डिफ़ॉल्ट थीम"
+
+#: inc/block-patterns.php:88
+msgctxt "Block pattern description"
+msgid "Three images inside an overlapping columns block."
+msgstr "एक ओवरलैपिंग कॉलम ब्लॉक में तीन चित्र।"
+
+#: inc/block-patterns.php:109
+msgid "Overlapping images and text"
+msgstr "ओवरलैपिंग छवियाँ और टेक्स्ट"
+
+#: inc/block-patterns.php:63
+msgctxt "Block pattern description"
+msgid "A huge text followed by social networks and email address links."
+msgstr "सोशल नेटवर्क और ईमेल पते के लिंक के बाद एक विशाल टेक्स्ट।"
+
+#. translators: %s: Link to WP admin new post page.
+#: template-parts/content/content-none.php:43
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "अपनी पहली पोस्ट को प्रकाशित करने के लिए तैयार हैं? <a href=\"%s\">यहाँ से शुरुआत करें</a>।"
+
+#: inc/block-patterns.php:113
+msgctxt "Block pattern description"
+msgid "An overlapping columns block with two images and a text description."
+msgstr "दो छवियों और एक टेक्स्ट विवरण के साथ एक ओवरलैपिंग कॉलम ब्लॉक।"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "ऐसा लगता है कि इस एड्रेस पर कुछ नहीं था। कृपया दोबारा खोजने का प्रयास करें?"
+
+#: inc/block-patterns.php:135
+msgctxt "Block pattern description"
+msgid "A block with 3 columns that display contact information and social media links."
+msgstr "3 कॉलम वाला एक ब्लॉक जो संपर्क जानकारी और सोशल मीडिया लिंक प्रदर्शित करता है।"
+
+#: template-parts/content/content-none.php:61
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "ऐसा प्रतीत होता है कि हम वह नहीं ढूंढ पाए जिसके लिए आप खोज रहे हैं। शायद खोजना मदद कर सके।"
+
+#: inc/block-patterns.php:100
+msgctxt "Block pattern description"
+msgid "A media & text block with a big image on the left and a smaller one with bordered frame on the right."
+msgstr "बाईं ओर एक बड़ी छवि वाला एक मीडिया और टेक्स्ट ब्लॉक और दाईं ओर बॉर्डर वाले फ़्रेम वाला एक छोटा ब्लॉक।"
+
+#: inc/block-patterns.php:75
+msgctxt "Block pattern description"
+msgid "A Media & Text block with a big image on the left and a heading on the right. The heading is followed by a separator and a description paragraph."
+msgstr "बाईं ओर एक बड़ी छवि और दाईं ओर एक शीर्षक वाला एक मीडिया और टेक्स्ट ब्लॉक। शीर्षक के बाद एक विभाजक और एक विवरण पैराग्राफ आता है।"
+
+#. Author URI of the theme
+#: footer.php:68
+#, gp-priority: low
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "वर्डप्रेस टीम"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentytwentyone/"
+msgstr "https://hi.wordpress.org/themes/twentytwentyone/"
